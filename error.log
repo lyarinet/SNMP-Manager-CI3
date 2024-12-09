@@ -1,0 +1,1535 @@
+[08-Dec-2024 21:28:57 Asia/Karachi] Request URI: /devices
+[08-Dec-2024 21:29:04 Asia/Karachi] Request URI: /devices
+[08-Dec-2024 21:29:04 Asia/Karachi] Testing SNMP connection to 192.168.244.3
+[08-Dec-2024 21:29:04 Asia/Karachi] PHP Fatal error:  Uncaught Error: Call to undefined function snmp_errno() in /var/www/lyari.com/controllers/SNMPController.php:59
+Stack trace:
+#0 /var/www/lyari.com/index.php(90): SNMPController->addDevice()
+#1 {main}
+  thrown in /var/www/lyari.com/controllers/SNMPController.php on line 59
+[08-Dec-2024 21:29:22 Asia/Karachi] Request URI: /devices
+[08-Dec-2024 21:29:22 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 21:29:22 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 21:29:22 Asia/Karachi] Request URI: /devices
+[08-Dec-2024 21:29:22 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 21:29:22 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 21:29:22 Asia/Karachi] Request URI: /devices
+[08-Dec-2024 21:29:22 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 21:29:22 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 21:29:22 Asia/Karachi] Request URI: /devices
+[08-Dec-2024 21:29:23 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 21:29:23 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 21:30:35 Asia/Karachi] Request URI: /devices
+[08-Dec-2024 21:30:35 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 21:30:35 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 21:30:36 Asia/Karachi] Request URI: /monitor/4
+[08-Dec-2024 21:30:36 Asia/Karachi] Attempting to monitor device: 192.168.244.2
+[08-Dec-2024 21:30:36 Asia/Karachi] SNMP Version: 2c
+[08-Dec-2024 21:30:36 Asia/Karachi] Community String: ********
+[08-Dec-2024 21:30:36 Asia/Karachi] Successfully connected to device via SNMP
+[08-Dec-2024 21:30:36 Asia/Karachi] System Description: S6720-54C-EI-48S-DC 
+Huawei Versatile Routing Platform Software 
+ VRP (R) software,Version 5.170 (S6720 V200R010C00SPC600) 
+ Copyright (C) 2007 Huawei Technologies Co., Ltd.
+[08-Dec-2024 21:30:36 Asia/Karachi] Getting system info for 192.168.244.2
+[08-Dec-2024 21:30:36 Asia/Karachi] description: S6720-54C-EI-48S-DC 
+Huawei Versatile Routing Platform Software 
+ VRP (R) software,Version 5.170 (S6720 V200R010C00SPC600) 
+ Copyright (C) 2007 Huawei Technologies Co., Ltd.
+[08-Dec-2024 21:30:36 Asia/Karachi] uptime: 3582308054
+[08-Dec-2024 21:30:36 Asia/Karachi] contact: R&D Beijing, Huawei Technologies co.,Ltd.
+[08-Dec-2024 21:30:36 Asia/Karachi] hostname: Core-SW2
+[08-Dec-2024 21:30:36 Asia/Karachi] location: Beijing China
+[08-Dec-2024 21:30:36 Asia/Karachi] Getting performance metrics for 192.168.244.2
+[08-Dec-2024 21:30:36 Asia/Karachi] Disk usage: 0% (Total: 0, Used: 0)
+[08-Dec-2024 21:30:36 Asia/Karachi] Getting interface info for 192.168.244.2
+[08-Dec-2024 21:30:36 Asia/Karachi] Starting interface data collection for 192.168.244.2
+[08-Dec-2024 21:30:36 Asia/Karachi] Interface table query result: Success
+[08-Dec-2024 21:30:36 Asia/Karachi] Processing interface index: 1
+[08-Dec-2024 21:30:36 Asia/Karachi] Interface 1 - Name: InLoopBack0, Type: 24, Status: 1
+[08-Dec-2024 21:30:37 Asia/Karachi] Added interface to list: {"name":"InLoopBack0","index":1,"type":"softwareLoopback","status":"up","admin_status":"up","speed":"0 bps","mac_address":"00:00:00:00:00:00","ip_address":"","mtu":1500,"statistics":{"in_octets":0,"out_octets":0,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:30:37 Asia/Karachi] Processing interface index: 2
+[08-Dec-2024 21:30:37 Asia/Karachi] Interface 2 - Name: NULL0, Type: 1, Status: 1
+[08-Dec-2024 21:30:37 Asia/Karachi] Added interface to list: {"name":"NULL0","index":2,"type":"other","status":"up","admin_status":"up","speed":"0 bps","mac_address":"00:00:00:00:00:00","ip_address":"","mtu":1500,"statistics":{"in_octets":0,"out_octets":0,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:30:37 Asia/Karachi] Processing interface index: 3
+[08-Dec-2024 21:30:37 Asia/Karachi] Interface 3 - Name: Console9/0/0, Type: 1, Status: 1
+[08-Dec-2024 21:30:37 Asia/Karachi] Added interface to list: {"name":"Console9\/0\/0","index":3,"type":"other","status":"up","admin_status":"up","speed":"0 bps","mac_address":"00:00:00:00:00:00","ip_address":"","mtu":0,"statistics":{"in_octets":0,"out_octets":0,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:30:37 Asia/Karachi] Processing interface index: 4
+[08-Dec-2024 21:30:37 Asia/Karachi] Interface 4 - Name: MEth0/0/1, Type: 6, Status: 2
+[08-Dec-2024 21:30:37 Asia/Karachi] Added interface to list: {"name":"MEth0\/0\/1","index":4,"type":"ethernet-csmacd","status":"down","admin_status":"up","speed":"10 Mbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"","mtu":1500,"statistics":{"in_octets":0,"out_octets":0,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:30:37 Asia/Karachi] Processing interface index: 5
+[08-Dec-2024 21:30:42 Asia/Karachi] Interface 5 - Name: Vlanif1, Type: 53, Status: 2
+[08-Dec-2024 21:30:42 Asia/Karachi] Added interface to list: {"name":"Vlanif1","index":5,"type":"propVirtual","status":"down","admin_status":"up","speed":"1 Gbps","mac_address":"80:b5:75:9d:e7:c2","ip_address":"","mtu":1500,"statistics":{"in_octets":0,"out_octets":0,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:30:42 Asia/Karachi] Processing interface index: 56
+[08-Dec-2024 21:30:42 Asia/Karachi] Interface 56 - Name: XGigabitEthernet1/0/1, Type: 6, Status: 2
+[08-Dec-2024 21:30:42 Asia/Karachi] Added interface to list: {"name":"XGigabitEthernet1\/0\/1","index":56,"type":"ethernet-csmacd","status":"down","admin_status":"down","speed":"4.29 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"N\/A","mtu":1500,"statistics":{"in_octets":0,"out_octets":0,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:30:42 Asia/Karachi] Processing interface index: 57
+[08-Dec-2024 21:30:42 Asia/Karachi] Interface 57 - Name: XGigabitEthernet1/0/2, Type: 6, Status: 2
+[08-Dec-2024 21:30:43 Asia/Karachi] Added interface to list: {"name":"XGigabitEthernet1\/0\/2","index":57,"type":"ethernet-csmacd","status":"down","admin_status":"down","speed":"4.29 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"N\/A","mtu":1500,"statistics":{"in_octets":0,"out_octets":0,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:30:43 Asia/Karachi] Processing interface index: 58
+[08-Dec-2024 21:30:43 Asia/Karachi] Interface 58 - Name: XGigabitEthernet1/0/3, Type: 6, Status: 2
+[08-Dec-2024 21:30:43 Asia/Karachi] Added interface to list: {"name":"XGigabitEthernet1\/0\/3","index":58,"type":"ethernet-csmacd","status":"down","admin_status":"down","speed":"4.29 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"N\/A","mtu":1500,"statistics":{"in_octets":0,"out_octets":0,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:30:43 Asia/Karachi] Processing interface index: 59
+[08-Dec-2024 21:30:43 Asia/Karachi] Interface 59 - Name: XGigabitEthernet1/0/4, Type: 6, Status: 2
+[08-Dec-2024 21:30:43 Asia/Karachi] Added interface to list: {"name":"XGigabitEthernet1\/0\/4","index":59,"type":"ethernet-csmacd","status":"down","admin_status":"down","speed":"4.29 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"N\/A","mtu":1500,"statistics":{"in_octets":0,"out_octets":0,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:30:43 Asia/Karachi] Processing interface index: 60
+[08-Dec-2024 21:30:43 Asia/Karachi] Interface 60 - Name: XGigabitEthernet1/0/5, Type: 6, Status: 2
+[08-Dec-2024 21:30:43 Asia/Karachi] Added interface to list: {"name":"XGigabitEthernet1\/0\/5","index":60,"type":"ethernet-csmacd","status":"down","admin_status":"down","speed":"4.29 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"N\/A","mtu":1500,"statistics":{"in_octets":0,"out_octets":0,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:30:43 Asia/Karachi] Processing interface index: 61
+[08-Dec-2024 21:30:43 Asia/Karachi] Interface 61 - Name: XGigabitEthernet1/0/6, Type: 6, Status: 2
+[08-Dec-2024 21:30:44 Asia/Karachi] Added interface to list: {"name":"XGigabitEthernet1\/0\/6","index":61,"type":"ethernet-csmacd","status":"down","admin_status":"down","speed":"4.29 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"N\/A","mtu":1500,"statistics":{"in_octets":0,"out_octets":0,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:30:44 Asia/Karachi] Processing interface index: 62
+[08-Dec-2024 21:30:45 Asia/Karachi] Interface 62 - Name: XGigabitEthernet1/0/7, Type: 6, Status: 2
+[08-Dec-2024 21:30:45 Asia/Karachi] Added interface to list: {"name":"XGigabitEthernet1\/0\/7","index":62,"type":"ethernet-csmacd","status":"down","admin_status":"down","speed":"4.29 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"N\/A","mtu":1500,"statistics":{"in_octets":0,"out_octets":0,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:30:45 Asia/Karachi] Processing interface index: 63
+[08-Dec-2024 21:30:45 Asia/Karachi] Interface 63 - Name: XGigabitEthernet1/0/8, Type: 6, Status: 2
+[08-Dec-2024 21:30:45 Asia/Karachi] Added interface to list: {"name":"XGigabitEthernet1\/0\/8","index":63,"type":"ethernet-csmacd","status":"down","admin_status":"down","speed":"4.29 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"N\/A","mtu":1500,"statistics":{"in_octets":0,"out_octets":0,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:30:45 Asia/Karachi] Processing interface index: 64
+[08-Dec-2024 21:30:45 Asia/Karachi] Interface 64 - Name: XGigabitEthernet1/0/9, Type: 6, Status: 2
+[08-Dec-2024 21:30:46 Asia/Karachi] Added interface to list: {"name":"XGigabitEthernet1\/0\/9","index":64,"type":"ethernet-csmacd","status":"down","admin_status":"down","speed":"4.29 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"N\/A","mtu":1500,"statistics":{"in_octets":0,"out_octets":0,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:30:46 Asia/Karachi] Processing interface index: 65
+[08-Dec-2024 21:30:46 Asia/Karachi] Interface 65 - Name: XGigabitEthernet1/0/10, Type: 6, Status: 2
+[08-Dec-2024 21:30:46 Asia/Karachi] Added interface to list: {"name":"XGigabitEthernet1\/0\/10","index":65,"type":"ethernet-csmacd","status":"down","admin_status":"down","speed":"4.29 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"","mtu":1500,"statistics":{"in_octets":0,"out_octets":0,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:30:46 Asia/Karachi] Processing interface index: 66
+[08-Dec-2024 21:30:46 Asia/Karachi] Interface 66 - Name: XGigabitEthernet1/0/11, Type: 6, Status: 2
+[08-Dec-2024 21:30:47 Asia/Karachi] Added interface to list: {"name":"XGigabitEthernet1\/0\/11","index":66,"type":"ethernet-csmacd","status":"down","admin_status":"down","speed":"4.29 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"N\/A","mtu":1500,"statistics":{"in_octets":0,"out_octets":0,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:30:47 Asia/Karachi] Processing interface index: 67
+[08-Dec-2024 21:30:47 Asia/Karachi] Interface 67 - Name: XGigabitEthernet1/0/12, Type: 6, Status: 2
+[08-Dec-2024 21:30:47 Asia/Karachi] Added interface to list: {"name":"XGigabitEthernet1\/0\/12","index":67,"type":"ethernet-csmacd","status":"down","admin_status":"down","speed":"4.29 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"","mtu":1500,"statistics":{"in_octets":0,"out_octets":0,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:30:47 Asia/Karachi] Processing interface index: 68
+[08-Dec-2024 21:30:47 Asia/Karachi] Interface 68 - Name: XGigabitEthernet1/0/13, Type: 6, Status: 2
+[08-Dec-2024 21:30:48 Asia/Karachi] Added interface to list: {"name":"XGigabitEthernet1\/0\/13","index":68,"type":"ethernet-csmacd","status":"down","admin_status":"down","speed":"4.29 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"","mtu":1500,"statistics":{"in_octets":0,"out_octets":0,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:30:48 Asia/Karachi] Processing interface index: 69
+[08-Dec-2024 21:30:48 Asia/Karachi] Interface 69 - Name: XGigabitEthernet1/0/14, Type: 6, Status: 2
+[08-Dec-2024 21:30:48 Asia/Karachi] Added interface to list: {"name":"XGigabitEthernet1\/0\/14","index":69,"type":"ethernet-csmacd","status":"down","admin_status":"down","speed":"4.29 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"","mtu":1500,"statistics":{"in_octets":0,"out_octets":0,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:30:48 Asia/Karachi] Processing interface index: 70
+[08-Dec-2024 21:30:48 Asia/Karachi] Interface 70 - Name: XGigabitEthernet1/0/15, Type: 6, Status: 2
+[08-Dec-2024 21:30:49 Asia/Karachi] Added interface to list: {"name":"XGigabitEthernet1\/0\/15","index":70,"type":"ethernet-csmacd","status":"down","admin_status":"down","speed":"4.29 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"N\/A","mtu":1500,"statistics":{"in_octets":0,"out_octets":0,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:30:49 Asia/Karachi] Processing interface index: 71
+[08-Dec-2024 21:30:49 Asia/Karachi] Interface 71 - Name: XGigabitEthernet1/0/16, Type: 6, Status: 2
+[08-Dec-2024 21:30:49 Asia/Karachi] Added interface to list: {"name":"XGigabitEthernet1\/0\/16","index":71,"type":"ethernet-csmacd","status":"down","admin_status":"down","speed":"4.29 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"N\/A","mtu":1500,"statistics":{"in_octets":0,"out_octets":0,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:30:49 Asia/Karachi] Processing interface index: 72
+[08-Dec-2024 21:30:49 Asia/Karachi] Interface 72 - Name: XGigabitEthernet1/0/17, Type: 6, Status: 2
+[08-Dec-2024 21:30:49 Asia/Karachi] Added interface to list: {"name":"XGigabitEthernet1\/0\/17","index":72,"type":"ethernet-csmacd","status":"down","admin_status":"down","speed":"4.29 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"N\/A","mtu":1500,"statistics":{"in_octets":0,"out_octets":0,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:30:49 Asia/Karachi] Processing interface index: 73
+[08-Dec-2024 21:30:49 Asia/Karachi] Interface 73 - Name: XGigabitEthernet1/0/18, Type: 6, Status: 2
+[08-Dec-2024 21:30:49 Asia/Karachi] Added interface to list: {"name":"XGigabitEthernet1\/0\/18","index":73,"type":"ethernet-csmacd","status":"down","admin_status":"down","speed":"4.29 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"N\/A","mtu":1500,"statistics":{"in_octets":0,"out_octets":0,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:30:49 Asia/Karachi] Processing interface index: 74
+[08-Dec-2024 21:30:49 Asia/Karachi] Interface 74 - Name: XGigabitEthernet1/0/19, Type: 6, Status: 2
+[08-Dec-2024 21:30:49 Asia/Karachi] Added interface to list: {"name":"XGigabitEthernet1\/0\/19","index":74,"type":"ethernet-csmacd","status":"down","admin_status":"down","speed":"4.29 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"","mtu":1500,"statistics":{"in_octets":0,"out_octets":0,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:30:49 Asia/Karachi] Processing interface index: 75
+[08-Dec-2024 21:30:49 Asia/Karachi] Interface 75 - Name: XGigabitEthernet1/0/20, Type: 6, Status: 2
+[08-Dec-2024 21:30:51 Asia/Karachi] Added interface to list: {"name":"XGigabitEthernet1\/0\/20","index":75,"type":"ethernet-csmacd","status":"down","admin_status":"down","speed":"4.29 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"N\/A","mtu":1500,"statistics":{"in_octets":0,"out_octets":0,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:30:51 Asia/Karachi] Processing interface index: 76
+[08-Dec-2024 21:30:51 Asia/Karachi] Interface 76 - Name: XGigabitEthernet1/0/21, Type: 6, Status: 2
+[08-Dec-2024 21:30:51 Asia/Karachi] Added interface to list: {"name":"XGigabitEthernet1\/0\/21","index":76,"type":"ethernet-csmacd","status":"down","admin_status":"down","speed":"4.29 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"","mtu":1500,"statistics":{"in_octets":0,"out_octets":0,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:30:51 Asia/Karachi] Processing interface index: 77
+[08-Dec-2024 21:30:51 Asia/Karachi] Interface 77 - Name: XGigabitEthernet1/0/22, Type: 6, Status: 2
+[08-Dec-2024 21:30:51 Asia/Karachi] Added interface to list: {"name":"XGigabitEthernet1\/0\/22","index":77,"type":"ethernet-csmacd","status":"down","admin_status":"down","speed":"4.29 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"N\/A","mtu":1500,"statistics":{"in_octets":0,"out_octets":0,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:30:51 Asia/Karachi] Processing interface index: 78
+[08-Dec-2024 21:30:51 Asia/Karachi] Interface 78 - Name: XGigabitEthernet1/0/23, Type: 6, Status: 2
+[08-Dec-2024 21:30:51 Asia/Karachi] Added interface to list: {"name":"XGigabitEthernet1\/0\/23","index":78,"type":"ethernet-csmacd","status":"down","admin_status":"down","speed":"4.29 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"N\/A","mtu":1500,"statistics":{"in_octets":0,"out_octets":0,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:30:51 Asia/Karachi] Processing interface index: 79
+[08-Dec-2024 21:30:51 Asia/Karachi] Interface 79 - Name: XGigabitEthernet1/0/24, Type: 6, Status: 2
+[08-Dec-2024 21:30:52 Asia/Karachi] Added interface to list: {"name":"XGigabitEthernet1\/0\/24","index":79,"type":"ethernet-csmacd","status":"down","admin_status":"down","speed":"4.29 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"N\/A","mtu":1500,"statistics":{"in_octets":0,"out_octets":0,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:30:52 Asia/Karachi] Processing interface index: 80
+[08-Dec-2024 21:30:52 Asia/Karachi] Interface 80 - Name: XGigabitEthernet1/0/25, Type: 6, Status: 2
+[08-Dec-2024 21:30:52 Asia/Karachi] Added interface to list: {"name":"XGigabitEthernet1\/0\/25","index":80,"type":"ethernet-csmacd","status":"down","admin_status":"down","speed":"4.29 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"N\/A","mtu":1500,"statistics":{"in_octets":0,"out_octets":0,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:30:52 Asia/Karachi] Processing interface index: 81
+[08-Dec-2024 21:30:52 Asia/Karachi] Interface 81 - Name: XGigabitEthernet1/0/26, Type: 6, Status: 2
+[08-Dec-2024 21:30:52 Asia/Karachi] Added interface to list: {"name":"XGigabitEthernet1\/0\/26","index":81,"type":"ethernet-csmacd","status":"down","admin_status":"down","speed":"4.29 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"N\/A","mtu":1500,"statistics":{"in_octets":0,"out_octets":0,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:30:52 Asia/Karachi] Processing interface index: 82
+[08-Dec-2024 21:30:52 Asia/Karachi] Interface 82 - Name: XGigabitEthernet1/0/27, Type: 6, Status: 2
+[08-Dec-2024 21:30:52 Asia/Karachi] Added interface to list: {"name":"XGigabitEthernet1\/0\/27","index":82,"type":"ethernet-csmacd","status":"down","admin_status":"down","speed":"4.29 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"N\/A","mtu":1500,"statistics":{"in_octets":0,"out_octets":0,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:30:52 Asia/Karachi] Processing interface index: 83
+[08-Dec-2024 21:30:53 Asia/Karachi] Interface 83 - Name: XGigabitEthernet1/0/28, Type: 6, Status: 2
+[08-Dec-2024 21:30:54 Asia/Karachi] Added interface to list: {"name":"XGigabitEthernet1\/0\/28","index":83,"type":"ethernet-csmacd","status":"down","admin_status":"down","speed":"4.29 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"N\/A","mtu":1500,"statistics":{"in_octets":0,"out_octets":0,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:30:54 Asia/Karachi] Processing interface index: 84
+[08-Dec-2024 21:30:54 Asia/Karachi] Interface 84 - Name: XGigabitEthernet1/0/29, Type: 6, Status: 2
+[08-Dec-2024 21:30:54 Asia/Karachi] Added interface to list: {"name":"XGigabitEthernet1\/0\/29","index":84,"type":"ethernet-csmacd","status":"down","admin_status":"down","speed":"4.29 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"N\/A","mtu":1500,"statistics":{"in_octets":0,"out_octets":0,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:30:54 Asia/Karachi] Processing interface index: 85
+[08-Dec-2024 21:30:54 Asia/Karachi] Interface 85 - Name: XGigabitEthernet1/0/30, Type: 6, Status: 2
+[08-Dec-2024 21:30:54 Asia/Karachi] Added interface to list: {"name":"XGigabitEthernet1\/0\/30","index":85,"type":"ethernet-csmacd","status":"down","admin_status":"down","speed":"4.29 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"N\/A","mtu":1500,"statistics":{"in_octets":0,"out_octets":0,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:30:54 Asia/Karachi] Processing interface index: 86
+[08-Dec-2024 21:30:54 Asia/Karachi] Interface 86 - Name: XGigabitEthernet1/0/31, Type: 6, Status: 2
+[08-Dec-2024 21:30:54 Asia/Karachi] Added interface to list: {"name":"XGigabitEthernet1\/0\/31","index":86,"type":"ethernet-csmacd","status":"down","admin_status":"down","speed":"4.29 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"N\/A","mtu":1500,"statistics":{"in_octets":0,"out_octets":0,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:30:54 Asia/Karachi] Processing interface index: 87
+[08-Dec-2024 21:30:54 Asia/Karachi] Interface 87 - Name: XGigabitEthernet1/0/32, Type: 6, Status: 2
+[08-Dec-2024 21:30:54 Asia/Karachi] Added interface to list: {"name":"XGigabitEthernet1\/0\/32","index":87,"type":"ethernet-csmacd","status":"down","admin_status":"down","speed":"4.29 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"N\/A","mtu":1500,"statistics":{"in_octets":0,"out_octets":0,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:30:54 Asia/Karachi] Processing interface index: 88
+[08-Dec-2024 21:30:55 Asia/Karachi] Interface 88 - Name: XGigabitEthernet1/0/33, Type: 6, Status: 1
+[08-Dec-2024 21:30:55 Asia/Karachi] Added interface to list: {"name":"XGigabitEthernet1\/0\/33","index":88,"type":"ethernet-csmacd","status":"up","admin_status":"up","speed":"1 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"N\/A","mtu":1500,"statistics":{"in_octets":2589046173,"out_octets":3984742843,"in_errors":16,"out_errors":0,"in_discards":0,"out_discards":746601934}}
+[08-Dec-2024 21:30:55 Asia/Karachi] Processing interface index: 89
+[08-Dec-2024 21:30:55 Asia/Karachi] Interface 89 - Name: XGigabitEthernet1/0/34, Type: 6, Status: 2
+[08-Dec-2024 21:30:55 Asia/Karachi] Added interface to list: {"name":"XGigabitEthernet1\/0\/34","index":89,"type":"ethernet-csmacd","status":"down","admin_status":"up","speed":"4.29 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"N\/A","mtu":1500,"statistics":{"in_octets":973363939,"out_octets":1533806424,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":698974187}}
+[08-Dec-2024 21:30:55 Asia/Karachi] Processing interface index: 90
+[08-Dec-2024 21:30:55 Asia/Karachi] Interface 90 - Name: XGigabitEthernet1/0/35, Type: 6, Status: 1
+[08-Dec-2024 21:30:56 Asia/Karachi] Added interface to list: {"name":"XGigabitEthernet1\/0\/35","index":90,"type":"ethernet-csmacd","status":"up","admin_status":"up","speed":"1 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"N\/A","mtu":1500,"statistics":{"in_octets":519844441,"out_octets":3553346235,"in_errors":42,"out_errors":0,"in_discards":0,"out_discards":727093444}}
+[08-Dec-2024 21:30:56 Asia/Karachi] Processing interface index: 91
+[08-Dec-2024 21:30:56 Asia/Karachi] Interface 91 - Name: XGigabitEthernet1/0/36, Type: 6, Status: 1
+[08-Dec-2024 21:30:56 Asia/Karachi] Added interface to list: {"name":"XGigabitEthernet1\/0\/36","index":91,"type":"ethernet-csmacd","status":"up","admin_status":"up","speed":"1 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"N\/A","mtu":1500,"statistics":{"in_octets":2689428097,"out_octets":1831105827,"in_errors":10,"out_errors":0,"in_discards":0,"out_discards":752984753}}
+[08-Dec-2024 21:30:56 Asia/Karachi] Processing interface index: 92
+[08-Dec-2024 21:30:56 Asia/Karachi] Interface 92 - Name: XGigabitEthernet1/0/37, Type: 6, Status: 2
+[08-Dec-2024 21:30:57 Asia/Karachi] Added interface to list: {"name":"XGigabitEthernet1\/0\/37","index":92,"type":"ethernet-csmacd","status":"down","admin_status":"down","speed":"4.29 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"","mtu":1500,"statistics":{"in_octets":0,"out_octets":0,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:30:57 Asia/Karachi] Processing interface index: 93
+[08-Dec-2024 21:30:57 Asia/Karachi] Interface 93 - Name: XGigabitEthernet1/0/38, Type: 6, Status: 2
+[08-Dec-2024 21:30:57 Asia/Karachi] Added interface to list: {"name":"XGigabitEthernet1\/0\/38","index":93,"type":"ethernet-csmacd","status":"down","admin_status":"down","speed":"4.29 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"N\/A","mtu":1500,"statistics":{"in_octets":0,"out_octets":0,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:30:57 Asia/Karachi] Processing interface index: 94
+[08-Dec-2024 21:30:57 Asia/Karachi] Interface 94 - Name: XGigabitEthernet1/0/39, Type: 6, Status: 2
+[08-Dec-2024 21:30:57 Asia/Karachi] Added interface to list: {"name":"XGigabitEthernet1\/0\/39","index":94,"type":"ethernet-csmacd","status":"down","admin_status":"down","speed":"4.29 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"N\/A","mtu":1500,"statistics":{"in_octets":0,"out_octets":0,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:30:57 Asia/Karachi] Processing interface index: 95
+[08-Dec-2024 21:30:58 Asia/Karachi] Interface 95 - Name: XGigabitEthernet1/0/40, Type: 6, Status: 1
+[08-Dec-2024 21:30:58 Asia/Karachi] Added interface to list: {"name":"XGigabitEthernet1\/0\/40","index":95,"type":"ethernet-csmacd","status":"up","admin_status":"up","speed":"1 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"N\/A","mtu":1500,"statistics":{"in_octets":492970448,"out_octets":3402250793,"in_errors":185,"out_errors":0,"in_discards":0,"out_discards":728984603}}
+[08-Dec-2024 21:30:58 Asia/Karachi] Processing interface index: 96
+[08-Dec-2024 21:30:58 Asia/Karachi] Interface 96 - Name: XGigabitEthernet1/0/41, Type: 6, Status: 1
+[08-Dec-2024 21:30:59 Asia/Karachi] Added interface to list: {"name":"XGigabitEthernet1\/0\/41","index":96,"type":"ethernet-csmacd","status":"up","admin_status":"up","speed":"1 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"N\/A","mtu":1500,"statistics":{"in_octets":1330265388,"out_octets":2674772229,"in_errors":2,"out_errors":0,"in_discards":0,"out_discards":736724743}}
+[08-Dec-2024 21:30:59 Asia/Karachi] Processing interface index: 97
+[08-Dec-2024 21:31:00 Asia/Karachi] Interface 97 - Name: XGigabitEthernet1/0/42, Type: 6, Status: 1
+[08-Dec-2024 21:31:00 Asia/Karachi] Added interface to list: {"name":"XGigabitEthernet1\/0\/42","index":97,"type":"ethernet-csmacd","status":"up","admin_status":"up","speed":"1 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"N\/A","mtu":1500,"statistics":{"in_octets":3345945830,"out_octets":1135261473,"in_errors":7,"out_errors":0,"in_discards":0,"out_discards":726355080}}
+[08-Dec-2024 21:31:00 Asia/Karachi] Processing interface index: 98
+[08-Dec-2024 21:31:00 Asia/Karachi] Interface 98 - Name: XGigabitEthernet1/0/43, Type: 6, Status: 1
+[08-Dec-2024 21:31:00 Asia/Karachi] Added interface to list: {"name":"XGigabitEthernet1\/0\/43","index":98,"type":"ethernet-csmacd","status":"up","admin_status":"up","speed":"4.29 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"N\/A","mtu":1500,"statistics":{"in_octets":4210422994,"out_octets":3156360483,"in_errors":34,"out_errors":0,"in_discards":0,"out_discards":684171657}}
+[08-Dec-2024 21:31:00 Asia/Karachi] Processing interface index: 99
+[08-Dec-2024 21:31:00 Asia/Karachi] Interface 99 - Name: XGigabitEthernet1/0/44, Type: 6, Status: 1
+[08-Dec-2024 21:31:00 Asia/Karachi] Added interface to list: {"name":"XGigabitEthernet1\/0\/44","index":99,"type":"ethernet-csmacd","status":"up","admin_status":"up","speed":"1 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"N\/A","mtu":1500,"statistics":{"in_octets":3000432016,"out_octets":3402150248,"in_errors":74,"out_errors":0,"in_discards":0,"out_discards":754088308}}
+[08-Dec-2024 21:31:00 Asia/Karachi] Processing interface index: 100
+[08-Dec-2024 21:31:00 Asia/Karachi] Interface 100 - Name: XGigabitEthernet1/0/45, Type: 6, Status: 1
+[08-Dec-2024 21:31:01 Asia/Karachi] Added interface to list: {"name":"XGigabitEthernet1\/0\/45","index":100,"type":"ethernet-csmacd","status":"up","admin_status":"up","speed":"4.29 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"N\/A","mtu":1500,"statistics":{"in_octets":1995096051,"out_octets":705872599,"in_errors":4475,"out_errors":0,"in_discards":0,"out_discards":50098}}
+[08-Dec-2024 21:31:01 Asia/Karachi] Processing interface index: 101
+[08-Dec-2024 21:31:01 Asia/Karachi] Interface 101 - Name: XGigabitEthernet1/0/46, Type: 6, Status: 1
+[08-Dec-2024 21:31:01 Asia/Karachi] Added interface to list: {"name":"XGigabitEthernet1\/0\/46","index":101,"type":"ethernet-csmacd","status":"up","admin_status":"up","speed":"4.29 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"N\/A","mtu":1500,"statistics":{"in_octets":1901311985,"out_octets":3625775010,"in_errors":667492,"out_errors":0,"in_discards":0,"out_discards":51977}}
+[08-Dec-2024 21:31:01 Asia/Karachi] Processing interface index: 102
+[08-Dec-2024 21:31:01 Asia/Karachi] Interface 102 - Name: XGigabitEthernet1/0/47, Type: 6, Status: 1
+[08-Dec-2024 21:31:01 Asia/Karachi] Added interface to list: {"name":"XGigabitEthernet1\/0\/47","index":102,"type":"ethernet-csmacd","status":"up","admin_status":"up","speed":"4.29 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"N\/A","mtu":1500,"statistics":{"in_octets":3831661342,"out_octets":821194859,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:31:01 Asia/Karachi] Processing interface index: 103
+[08-Dec-2024 21:31:01 Asia/Karachi] Interface 103 - Name: XGigabitEthernet1/0/48, Type: 6, Status: 1
+[08-Dec-2024 21:31:01 Asia/Karachi] Added interface to list: {"name":"XGigabitEthernet1\/0\/48","index":103,"type":"ethernet-csmacd","status":"up","admin_status":"up","speed":"4.29 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"N\/A","mtu":1500,"statistics":{"in_octets":690991751,"out_octets":3006335220,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:31:01 Asia/Karachi] Processing interface index: 104
+[08-Dec-2024 21:31:02 Asia/Karachi] Interface 104 - Name: 40GE1/0/1, Type: 6, Status: 2
+[08-Dec-2024 21:31:02 Asia/Karachi] Added interface to list: {"name":"40GE1\/0\/1","index":104,"type":"ethernet-csmacd","status":"down","admin_status":"up","speed":"4.29 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"N\/A","mtu":1500,"statistics":{"in_octets":0,"out_octets":0,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:31:02 Asia/Karachi] Processing interface index: 105
+[08-Dec-2024 21:31:02 Asia/Karachi] Interface 105 - Name: 40GE1/0/2, Type: 6, Status: 2
+[08-Dec-2024 21:31:03 Asia/Karachi] Added interface to list: {"name":"40GE1\/0\/2","index":105,"type":"ethernet-csmacd","status":"down","admin_status":"up","speed":"4.29 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"N\/A","mtu":1500,"statistics":{"in_octets":0,"out_octets":0,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:31:03 Asia/Karachi] Processing interface index: 741
+[08-Dec-2024 21:31:03 Asia/Karachi] Interface 741 - Name: Vlanif2100, Type: 53, Status: 1
+[08-Dec-2024 21:31:03 Asia/Karachi] Added interface to list: {"name":"Vlanif2100","index":741,"type":"propVirtual","status":"up","admin_status":"up","speed":"1 Gbps","mac_address":"80:b5:75:9d:e7:c1","ip_address":"","mtu":1500,"statistics":{"in_octets":0,"out_octets":0,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:31:03 Asia/Karachi] Processing interface index: 754
+[08-Dec-2024 21:31:03 Asia/Karachi] Interface 754 - Name: Eth-Trunk2, Type: 6, Status: 1
+[08-Dec-2024 21:31:03 Asia/Karachi] Added interface to list: {"name":"Eth-Trunk2","index":754,"type":"ethernet-csmacd","status":"up","admin_status":"up","speed":"4.29 Gbps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"N\/A","mtu":1500,"statistics":{"in_octets":1485507821,"out_octets":3278880560,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:31:03 Asia/Karachi] Processing interface index: 755
+[08-Dec-2024 21:31:03 Asia/Karachi] Interface 755 - Name: Eth-Trunk3, Type: 6, Status: 2
+[08-Dec-2024 21:31:04 Asia/Karachi] Added interface to list: {"name":"Eth-Trunk3","index":755,"type":"ethernet-csmacd","status":"down","admin_status":"up","speed":"0 bps","mac_address":"80:b5:75:9d:e7:c0","ip_address":"N\/A","mtu":1500,"statistics":{"in_octets":0,"out_octets":0,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:31:04 Asia/Karachi] Processing interface index: 767
+[08-Dec-2024 21:31:04 Asia/Karachi] Interface 767 - Name: Vlanif3998, Type: 53, Status: 1
+[08-Dec-2024 21:31:04 Asia/Karachi] Added interface to list: {"name":"Vlanif3998","index":767,"type":"propVirtual","status":"up","admin_status":"up","speed":"1 Gbps","mac_address":"80:b5:75:9d:e7:c9","ip_address":"","mtu":1500,"statistics":{"in_octets":0,"out_octets":0,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:31:04 Asia/Karachi] Processing interface index: 768
+[08-Dec-2024 21:31:05 Asia/Karachi] Interface 768 - Name: Vlanif3999, Type: 53, Status: 1
+[08-Dec-2024 21:31:05 Asia/Karachi] Added interface to list: {"name":"Vlanif3999","index":768,"type":"propVirtual","status":"up","admin_status":"up","speed":"1 Gbps","mac_address":"80:b5:75:9d:e7:ca","ip_address":"","mtu":1500,"statistics":{"in_octets":0,"out_octets":0,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:31:05 Asia/Karachi] Processing interface index: 769
+[08-Dec-2024 21:31:05 Asia/Karachi] Interface 769 - Name: LoopBack0, Type: 24, Status: 1
+[08-Dec-2024 21:31:06 Asia/Karachi] Added interface to list: {"name":"LoopBack0","index":769,"type":"softwareLoopback","status":"up","admin_status":"up","speed":"0 bps","mac_address":"00:00:00:00:00:00","ip_address":"","mtu":1500,"statistics":{"in_octets":0,"out_octets":0,"in_errors":0,"out_errors":0,"in_discards":0,"out_discards":0}}
+[08-Dec-2024 21:31:06 Asia/Karachi] Total interfaces found: 61
+[08-Dec-2024 21:31:06 Asia/Karachi] Starting network connections collection
+[08-Dec-2024 21:31:06 Asia/Karachi] Found TCP connections table
+[08-Dec-2024 21:31:07 Asia/Karachi] Found UDP table
+[08-Dec-2024 21:31:07 Asia/Karachi] Total connections found: 8
+[08-Dec-2024 21:31:07 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 21:31:07 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 21:31:07 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 21:31:41 Asia/Karachi] Request URI: /devices
+[08-Dec-2024 21:31:41 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 21:31:41 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 21:32:07 Asia/Karachi] Request URI: /devices
+[08-Dec-2024 21:32:07 Asia/Karachi] Received JSON data: {"ip_address":"192.168.244.3","snmp_version":"2c","community_string":"LyariN3t","description":"LyariN3t"}
+[08-Dec-2024 21:32:07 Asia/Karachi] Testing SNMP connection to 192.168.244.3
+[08-Dec-2024 21:32:07 Asia/Karachi] PHP Fatal error:  Uncaught Error: Call to undefined function snmp_errno() in /var/www/lyari.com/controllers/SNMPController.php:59
+Stack trace:
+#0 /var/www/lyari.com/index.php(96): SNMPController->addDevice()
+#1 {main}
+  thrown in /var/www/lyari.com/controllers/SNMPController.php on line 59
+[08-Dec-2024 21:32:14 Asia/Karachi] Request URI: /devices
+[08-Dec-2024 21:32:15 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 21:32:15 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 21:32:15 Asia/Karachi] Request URI: /devices
+[08-Dec-2024 21:32:15 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 21:32:15 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 21:32:34 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 21:32:34 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 21:32:34 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 21:32:45 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 21:32:45 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 21:32:45 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 21:32:46 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 21:32:46 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 21:32:46 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 21:32:47 Asia/Karachi] Request URI: /devices
+[08-Dec-2024 21:32:47 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 21:32:47 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 21:33:55 Asia/Karachi] Request URI: /devices
+[08-Dec-2024 21:33:55 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:33:55 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 21:33:55 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:33:55 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 21:33:55 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:34:27 Asia/Karachi] Request URI: /devices
+[08-Dec-2024 21:34:27 Asia/Karachi] Request Method: POST
+[08-Dec-2024 21:34:27 Asia/Karachi] Received raw data: {"ip_address":"192.168.244.3","snmp_version":"2c","community_string":"LyariN3t","description":"LyariN3t"}
+[08-Dec-2024 21:34:27 Asia/Karachi] Parsed data: Array
+(
+    [ip_address] => 192.168.244.3
+    [snmp_version] => 2c
+    [community_string] => LyariN3t
+    [description] => LyariN3t
+)
+
+[08-Dec-2024 21:34:27 Asia/Karachi] Testing SNMP connection to 192.168.244.3
+[08-Dec-2024 21:34:27 Asia/Karachi] PHP Fatal error:  Uncaught Error: Call to undefined function snmp_errno() in /var/www/lyari.com/controllers/SNMPController.php:59
+Stack trace:
+#0 /var/www/lyari.com/index.php(116): SNMPController->addDevice()
+#1 {main}
+  thrown in /var/www/lyari.com/controllers/SNMPController.php on line 59
+[08-Dec-2024 21:37:46 Asia/Karachi] Request URI: /devices
+[08-Dec-2024 21:37:46 Asia/Karachi] Request Method: POST
+[08-Dec-2024 21:37:46 Asia/Karachi] Received raw data: {"ip_address":"192.168.244.3","snmp_version":"2c","community_string":"LyariN3t","description":"LyariN3t"}
+[08-Dec-2024 21:37:46 Asia/Karachi] Parsed data: Array
+(
+    [ip_address] => 192.168.244.3
+    [snmp_version] => 2c
+    [community_string] => LyariN3t
+    [description] => LyariN3t
+)
+
+[08-Dec-2024 21:37:46 Asia/Karachi] Sending JSON response: {"success":true,"message":"Device added successfully"}
+[08-Dec-2024 21:37:47 Asia/Karachi] Request URI: /devices
+[08-Dec-2024 21:37:47 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:37:47 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 21:37:47 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:37:47 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 21:37:47 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:38:07 Asia/Karachi] Request URI: /monitor/5
+[08-Dec-2024 21:38:07 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:38:14 Asia/Karachi] Request URI: /monitor/5
+[08-Dec-2024 21:38:14 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:38:15 Asia/Karachi] Request URI: /monitor/4
+[08-Dec-2024 21:38:15 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:38:18 Asia/Karachi] Request URI: /monitor/4
+[08-Dec-2024 21:38:18 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:39:28 Asia/Karachi] Request URI: /monitor/5
+[08-Dec-2024 21:39:28 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:41:11 Asia/Karachi] Request URI: /devices
+[08-Dec-2024 21:41:11 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:41:11 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 21:41:11 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:41:11 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 21:41:11 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:41:13 Asia/Karachi] Request URI: /monitor/5
+[08-Dec-2024 21:41:13 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:43:29 Asia/Karachi] Request URI: /devices
+[08-Dec-2024 21:43:29 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:43:29 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 21:43:29 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:43:29 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 21:43:29 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:43:33 Asia/Karachi] Request URI: /monitor/5
+[08-Dec-2024 21:43:33 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:43:51 Asia/Karachi] Request URI: /devices
+[08-Dec-2024 21:43:51 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:43:51 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 21:43:51 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:43:51 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 21:43:51 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:43:57 Asia/Karachi] Request URI: /monitor/5
+[08-Dec-2024 21:43:57 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:44:15 Asia/Karachi] Request URI: /monitor/4
+[08-Dec-2024 21:44:15 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:44:15 Asia/Karachi] Error getting performance metrics: No performance metrics available
+[08-Dec-2024 21:44:15 Asia/Karachi] Error in SNMPController::monitorDevice: Failed to get performance metrics: No performance metrics available
+[08-Dec-2024 21:44:17 Asia/Karachi] Request URI: /devices
+[08-Dec-2024 21:44:17 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:44:17 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 21:44:17 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:44:17 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 21:44:17 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:44:20 Asia/Karachi] Request URI: /monitor/4
+[08-Dec-2024 21:44:20 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:44:20 Asia/Karachi] Error getting performance metrics: No performance metrics available
+[08-Dec-2024 21:44:20 Asia/Karachi] Error in SNMPController::monitorDevice: Failed to get performance metrics: No performance metrics available
+[08-Dec-2024 21:44:22 Asia/Karachi] Request URI: /monitor/5
+[08-Dec-2024 21:44:22 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:44:36 Asia/Karachi] Request URI: /devices
+[08-Dec-2024 21:44:36 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:44:36 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 21:44:36 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:44:36 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 21:44:36 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:44:47 Asia/Karachi] Request URI: /devices
+[08-Dec-2024 21:44:47 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:44:47 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 21:44:47 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:44:47 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 21:44:47 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:45:49 Asia/Karachi] Request URI: /devices
+[08-Dec-2024 21:45:49 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:45:49 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 21:45:49 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:45:49 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 21:45:49 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:45:51 Asia/Karachi] Request URI: /monitor/5
+[08-Dec-2024 21:45:51 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:48:09 Asia/Karachi] Request URI: /devices
+[08-Dec-2024 21:48:09 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:48:09 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 21:48:09 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:48:09 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 21:48:09 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:48:10 Asia/Karachi] Request URI: /monitor/5
+[08-Dec-2024 21:48:10 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:48:10 Asia/Karachi] PHP Deprecated:  Implicit conversion from float 41847932.4 to int loses precision in /var/www/lyari.com/controllers/SNMPController.php on line 283
+[08-Dec-2024 21:48:10 Asia/Karachi] PHP Deprecated:  Implicit conversion from float 41847932.4 to int loses precision in /var/www/lyari.com/controllers/SNMPController.php on line 284
+[08-Dec-2024 21:49:03 Asia/Karachi] Request URI: /monitor/4
+[08-Dec-2024 21:49:03 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:49:03 Asia/Karachi] PHP Deprecated:  Implicit conversion from float 35824187.14 to int loses precision in /var/www/lyari.com/controllers/SNMPController.php on line 283
+[08-Dec-2024 21:49:03 Asia/Karachi] PHP Deprecated:  Implicit conversion from float 35824187.14 to int loses precision in /var/www/lyari.com/controllers/SNMPController.php on line 284
+[08-Dec-2024 21:49:18 Asia/Karachi] Request URI: /monitor/5
+[08-Dec-2024 21:49:18 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:49:18 Asia/Karachi] PHP Deprecated:  Implicit conversion from float 41848000.36 to int loses precision in /var/www/lyari.com/controllers/SNMPController.php on line 283
+[08-Dec-2024 21:49:18 Asia/Karachi] PHP Deprecated:  Implicit conversion from float 41848000.36 to int loses precision in /var/www/lyari.com/controllers/SNMPController.php on line 284
+[08-Dec-2024 21:50:09 Asia/Karachi] Request URI: /devices
+[08-Dec-2024 21:50:09 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:50:09 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 21:50:09 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:50:09 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 21:50:09 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:50:12 Asia/Karachi] Request URI: /monitor/5
+[08-Dec-2024 21:50:12 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:50:12 Asia/Karachi] PHP Deprecated:  Implicit conversion from float 41848055.52 to int loses precision in /var/www/lyari.com/controllers/SNMPController.php on line 283
+[08-Dec-2024 21:50:12 Asia/Karachi] PHP Deprecated:  Implicit conversion from float 41848055.52 to int loses precision in /var/www/lyari.com/controllers/SNMPController.php on line 284
+[08-Dec-2024 21:50:14 Asia/Karachi] PHP Fatal error:  Uncaught Error: Call to undefined function snmptable() in /var/www/lyari.com/controllers/SNMPController.php:448
+Stack trace:
+#0 /var/www/lyari.com/controllers/SNMPController.php(236): SNMPController->getNetworkConnections()
+#1 /var/www/lyari.com/index.php(177): SNMPController->monitorDevice()
+#2 {main}
+  thrown in /var/www/lyari.com/controllers/SNMPController.php on line 448
+[08-Dec-2024 21:50:30 Asia/Karachi] Request URI: /devices
+[08-Dec-2024 21:50:30 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:50:30 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 21:50:30 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:50:30 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 21:50:30 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:50:31 Asia/Karachi] Request URI: /devices
+[08-Dec-2024 21:50:31 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:50:31 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 21:50:31 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:50:31 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 21:50:31 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:50:32 Asia/Karachi] Request URI: /monitor/5
+[08-Dec-2024 21:50:32 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:50:32 Asia/Karachi] PHP Deprecated:  Implicit conversion from float 41848073.78 to int loses precision in /var/www/lyari.com/controllers/SNMPController.php on line 283
+[08-Dec-2024 21:50:32 Asia/Karachi] PHP Deprecated:  Implicit conversion from float 41848073.78 to int loses precision in /var/www/lyari.com/controllers/SNMPController.php on line 284
+[08-Dec-2024 21:51:26 Asia/Karachi] Request URI: /alerts
+[08-Dec-2024 21:51:26 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:51:26 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 21:51:26 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:51:26 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 21:51:26 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:51:26 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 21:51:26 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:51:40 Asia/Karachi] Request URI: /devices
+[08-Dec-2024 21:51:40 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:51:40 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 21:51:40 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:51:40 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 21:51:40 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:51:47 Asia/Karachi] Request URI: /devices
+[08-Dec-2024 21:51:47 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:51:47 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 21:51:47 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:51:47 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 21:51:47 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:52:42 Asia/Karachi] Request URI: /devices
+[08-Dec-2024 21:52:42 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:52:42 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 21:52:42 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:52:42 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 21:52:42 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:52:43 Asia/Karachi] Request URI: /devices/4
+[08-Dec-2024 21:52:43 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:52:43 Asia/Karachi] Sending JSON response: {"success":true,"device":{"id":4,"ip_address":"192.168.244.2","community_string":"","snmp_version":"2c","description":"asdfghjkl;","status":"active","created_at":"2024-12-08 20:10:41","updated_at":"2024-12-08 21:44:45"}}
+[08-Dec-2024 21:53:02 Asia/Karachi] Request URI: /devices/4
+[08-Dec-2024 21:53:02 Asia/Karachi] Request Method: PUT
+[08-Dec-2024 21:53:02 Asia/Karachi] Received PUT data: {"id":"4","ip_address":"192.168.244.2","snmp_version":"2c","community_string":"LyariN3t","description":"asdfghjkl;"}
+[08-Dec-2024 21:53:02 Asia/Karachi] Sending JSON response: {"success":true,"message":"Device updated successfully"}
+[08-Dec-2024 21:53:04 Asia/Karachi] Request URI: /devices
+[08-Dec-2024 21:53:04 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:53:04 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 21:53:04 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:53:04 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 21:53:04 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:53:06 Asia/Karachi] Request URI: /devices/4
+[08-Dec-2024 21:53:06 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:53:06 Asia/Karachi] Sending JSON response: {"success":true,"device":{"id":4,"ip_address":"192.168.244.2","community_string":"","snmp_version":"2c","description":"asdfghjkl;","status":"active","created_at":"2024-12-08 20:10:41","updated_at":"2024-12-08 21:53:02"}}
+[08-Dec-2024 21:53:07 Asia/Karachi] Request URI: /devices/5
+[08-Dec-2024 21:53:07 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:53:07 Asia/Karachi] Sending JSON response: {"success":true,"device":{"id":5,"ip_address":"192.168.244.3","community_string":"","snmp_version":"2c","description":"LyariN3t","status":"active","created_at":"2024-12-08 21:37:46","updated_at":"2024-12-08 21:37:46"}}
+[08-Dec-2024 21:53:09 Asia/Karachi] Request URI: /monitor/4
+[08-Dec-2024 21:53:09 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:53:09 Asia/Karachi] PHP Deprecated:  Implicit conversion from float 35824432.59 to int loses precision in /var/www/lyari.com/controllers/SNMPController.php on line 283
+[08-Dec-2024 21:53:09 Asia/Karachi] PHP Deprecated:  Implicit conversion from float 35824432.59 to int loses precision in /var/www/lyari.com/controllers/SNMPController.php on line 284
+[08-Dec-2024 21:53:32 Asia/Karachi] Request URI: /monitor/5
+[08-Dec-2024 21:53:32 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:53:32 Asia/Karachi] PHP Deprecated:  Implicit conversion from float 41848253.9 to int loses precision in /var/www/lyari.com/controllers/SNMPController.php on line 283
+[08-Dec-2024 21:53:32 Asia/Karachi] PHP Deprecated:  Implicit conversion from float 41848253.9 to int loses precision in /var/www/lyari.com/controllers/SNMPController.php on line 284
+[08-Dec-2024 21:53:47 Asia/Karachi] Request URI: /alerts
+[08-Dec-2024 21:53:47 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:53:47 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 21:53:47 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:53:48 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 21:53:48 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:53:48 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 21:53:48 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:54:25 Asia/Karachi] Request URI: /dashboard/metrics
+[08-Dec-2024 21:54:25 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:54:25 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 21:54:25 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:58:01 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 21:58:01 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:58:01 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 21:58:01 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:58:01 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 21:58:01 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:58:02 Asia/Karachi] Request URI: /alerts
+[08-Dec-2024 21:58:02 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:58:02 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 21:58:02 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:58:02 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 21:58:02 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:58:40 Asia/Karachi] Request URI: /alerts
+[08-Dec-2024 21:58:40 Asia/Karachi] Request Method: POST
+[08-Dec-2024 21:58:40 Asia/Karachi] Received alert data: {"device_id":"5","metric":"interface_status","condition":">=","threshold":"11","severity":"info"}
+[08-Dec-2024 21:58:40 Asia/Karachi] Error in SNMPController::addAlert: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'metric' in 'field list'
+[08-Dec-2024 21:58:40 Asia/Karachi] Sending JSON response: {"success":false,"message":"Error adding alert rule: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'metric' in 'field list'"}
+[08-Dec-2024 21:58:55 Asia/Karachi] Request URI: /alerts
+[08-Dec-2024 21:58:55 Asia/Karachi] Request Method: POST
+[08-Dec-2024 21:58:55 Asia/Karachi] Received alert data: {"device_id":"5","metric":"response_time","condition":">=","threshold":"11","severity":"info"}
+[08-Dec-2024 21:58:55 Asia/Karachi] Error in SNMPController::addAlert: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'metric' in 'field list'
+[08-Dec-2024 21:58:55 Asia/Karachi] Sending JSON response: {"success":false,"message":"Error adding alert rule: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'metric' in 'field list'"}
+[08-Dec-2024 21:59:10 Asia/Karachi] Request URI: /alerts
+[08-Dec-2024 21:59:10 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:59:10 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 21:59:10 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:59:10 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 21:59:10 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:59:13 Asia/Karachi] Request URI: /alerts
+[08-Dec-2024 21:59:13 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:59:13 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 21:59:13 Asia/Karachi] Request Method: GET
+[08-Dec-2024 21:59:13 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 21:59:13 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:00:55 Asia/Karachi] Request URI: /alerts
+[08-Dec-2024 22:00:55 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:00:55 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 22:00:55 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:00:55 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 22:00:55 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:01:06 Asia/Karachi] Request URI: /alerts
+[08-Dec-2024 22:01:06 Asia/Karachi] Request Method: POST
+[08-Dec-2024 22:01:06 Asia/Karachi] Received alert data: {"device_id":"5","metric":"interface_status","condition":">=","threshold":"12","severity":"info"}
+[08-Dec-2024 22:01:06 Asia/Karachi] Sending JSON response: {"success":true,"message":"Alert rule added successfully"}
+[08-Dec-2024 22:01:07 Asia/Karachi] Request URI: /alerts
+[08-Dec-2024 22:01:07 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:01:07 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 22:01:07 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:01:07 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 22:01:07 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:01:12 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 22:01:12 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:01:12 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 22:01:12 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:01:12 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 22:01:12 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:01:15 Asia/Karachi] Request URI: /alerts
+[08-Dec-2024 22:01:15 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:01:15 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 22:01:15 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:01:15 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 22:01:15 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:02:08 Asia/Karachi] Request URI: /alerts
+[08-Dec-2024 22:02:08 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:02:08 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 22:02:08 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:02:08 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 22:02:08 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:02:10 Asia/Karachi] Request URI: /devices
+[08-Dec-2024 22:02:10 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:02:10 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 22:02:10 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:02:10 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 22:02:10 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:02:11 Asia/Karachi] Request URI: /monitor/5
+[08-Dec-2024 22:02:11 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:02:11 Asia/Karachi] PHP Deprecated:  Implicit conversion from float 41848773.8 to int loses precision in /var/www/lyari.com/controllers/SNMPController.php on line 283
+[08-Dec-2024 22:02:11 Asia/Karachi] PHP Deprecated:  Implicit conversion from float 41848773.8 to int loses precision in /var/www/lyari.com/controllers/SNMPController.php on line 284
+[08-Dec-2024 22:02:29 Asia/Karachi] Request URI: /alerts
+[08-Dec-2024 22:02:29 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:02:29 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 22:02:29 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:02:29 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 22:02:29 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:02:57 Asia/Karachi] Request URI: /alerts/delete/1
+[08-Dec-2024 22:02:57 Asia/Karachi] Request Method: POST
+[08-Dec-2024 22:02:57 Asia/Karachi] Sending JSON response: {"success":true,"message":"Alert rule deleted successfully"}
+[08-Dec-2024 22:02:57 Asia/Karachi] Request URI: /alerts
+[08-Dec-2024 22:02:57 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:02:58 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 22:02:58 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:02:58 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 22:02:58 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:03:06 Asia/Karachi] Request URI: /alerts
+[08-Dec-2024 22:03:06 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:03:06 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 22:03:06 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:03:06 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 22:03:06 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:03:16 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 22:03:16 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:03:17 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 22:03:17 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:03:17 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 22:03:17 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:03:17 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 22:03:17 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:03:17 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 22:03:17 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:03:17 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 22:03:17 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:03:19 Asia/Karachi] Request URI: /alerts
+[08-Dec-2024 22:03:19 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:03:19 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 22:03:19 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:03:19 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 22:03:19 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:03:55 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 22:03:55 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:03:55 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 22:03:55 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:03:55 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 22:03:55 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:03:56 Asia/Karachi] Request URI: /alerts
+[08-Dec-2024 22:03:56 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:03:56 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 22:03:56 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:03:56 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 22:03:56 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:03:57 Asia/Karachi] Request URI: /reports
+[08-Dec-2024 22:03:57 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:03:57 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 22:03:57 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:03:57 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 22:03:57 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:03:57 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 22:03:57 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:04:32 Asia/Karachi] Request URI: /profile
+[08-Dec-2024 22:04:32 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:04:32 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 22:04:32 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:04:32 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 22:04:32 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:04:32 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 22:04:32 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:04:35 Asia/Karachi] Request URI: /settings
+[08-Dec-2024 22:04:35 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:04:35 Asia/Karachi] PHP Warning:  require_once(/var/www/lyari.com/views/settings.php): Failed to open stream: No such file or directory in /var/www/lyari.com/index.php on line 191
+[08-Dec-2024 22:04:35 Asia/Karachi] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/lyari.com/views/settings.php' (include_path='.:/usr/share/php') in /var/www/lyari.com/index.php:191
+Stack trace:
+#0 {main}
+  thrown in /var/www/lyari.com/index.php on line 191
+[08-Dec-2024 22:04:37 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 22:04:37 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:04:37 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 22:04:37 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:04:37 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 22:04:37 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:04:39 Asia/Karachi] Request URI: /settings
+[08-Dec-2024 22:04:39 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:04:39 Asia/Karachi] PHP Warning:  require_once(/var/www/lyari.com/views/settings.php): Failed to open stream: No such file or directory in /var/www/lyari.com/index.php on line 191
+[08-Dec-2024 22:04:39 Asia/Karachi] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/lyari.com/views/settings.php' (include_path='.:/usr/share/php') in /var/www/lyari.com/index.php:191
+Stack trace:
+#0 {main}
+  thrown in /var/www/lyari.com/index.php on line 191
+[08-Dec-2024 22:04:41 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 22:04:41 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:04:41 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 22:04:41 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:04:41 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 22:04:41 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:04:42 Asia/Karachi] Request URI: /reports
+[08-Dec-2024 22:04:42 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:04:42 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 22:04:42 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:04:42 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 22:04:42 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:04:42 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 22:04:42 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:06:22 Asia/Karachi] Request URI: /alerts
+[08-Dec-2024 22:06:22 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:06:22 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 22:06:22 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:06:22 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 22:06:22 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:06:23 Asia/Karachi] Request URI: /reports
+[08-Dec-2024 22:06:23 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:06:23 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 22:06:23 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:06:23 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 22:06:23 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:06:23 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 22:06:23 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:06:24 Asia/Karachi] Request URI: /reports
+[08-Dec-2024 22:06:24 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:06:24 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 22:06:24 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:06:24 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 22:06:24 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:06:24 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 22:06:24 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:06:25 Asia/Karachi] Request URI: /reports
+[08-Dec-2024 22:06:25 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:06:25 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 22:06:25 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:06:25 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 22:06:25 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:06:25 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 22:06:25 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:06:25 Asia/Karachi] Request URI: /reports
+[08-Dec-2024 22:06:25 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:06:25 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 22:06:25 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:06:25 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 22:06:25 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:06:25 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 22:06:25 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:06:25 Asia/Karachi] Request URI: /reports
+[08-Dec-2024 22:06:25 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:06:25 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 22:06:25 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:06:25 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 22:06:25 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:06:25 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 22:06:25 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:06:25 Asia/Karachi] Request URI: /reports
+[08-Dec-2024 22:06:25 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:06:25 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 22:06:25 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:06:25 Asia/Karachi] Request URI: /favicon.ico
+[08-Dec-2024 22:06:25 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:06:25 Asia/Karachi] Request URI: /dashboard
+[08-Dec-2024 22:06:25 Asia/Karachi] Request Method: GET
+[08-Dec-2024 22:07:35 Asia/Karachi] PHP Fatal error:  Uncaught Error: Call to undefined method Database::getInstance() in /var/www/lyari.com/controllers/ReportsController.php:8
+Stack trace:
+#0 /var/www/lyari.com/index.php(60): ReportsController->__construct()
+#1 {main}
+  thrown in /var/www/lyari.com/controllers/ReportsController.php on line 8
+[08-Dec-2024 22:07:37 Asia/Karachi] PHP Fatal error:  Uncaught Error: Call to undefined method Database::getInstance() in /var/www/lyari.com/controllers/ReportsController.php:8
+Stack trace:
+#0 /var/www/lyari.com/index.php(60): ReportsController->__construct()
+#1 {main}
+  thrown in /var/www/lyari.com/controllers/ReportsController.php on line 8
+[08-Dec-2024 22:07:37 Asia/Karachi] PHP Fatal error:  Uncaught Error: Call to undefined method Database::getInstance() in /var/www/lyari.com/controllers/ReportsController.php:8
+Stack trace:
+#0 /var/www/lyari.com/index.php(60): ReportsController->__construct()
+#1 {main}
+  thrown in /var/www/lyari.com/controllers/ReportsController.php on line 8
+[08-Dec-2024 22:07:52 Asia/Karachi] PHP Fatal error:  Uncaught Error: Call to undefined method Database::getInstance() in /var/www/lyari.com/controllers/ReportsController.php:8
+Stack trace:
+#0 /var/www/lyari.com/index.php(60): ReportsController->__construct()
+#1 {main}
+  thrown in /var/www/lyari.com/controllers/ReportsController.php on line 8
+[08-Dec-2024 22:07:53 Asia/Karachi] PHP Fatal error:  Uncaught Error: Call to undefined method Database::getInstance() in /var/www/lyari.com/controllers/ReportsController.php:8
+Stack trace:
+#0 /var/www/lyari.com/index.php(60): ReportsController->__construct()
+#1 {main}
+  thrown in /var/www/lyari.com/controllers/ReportsController.php on line 8
+[08-Dec-2024 22:09:56 Asia/Karachi] PHP Fatal error:  Uncaught Error: Call to undefined method Database::getInstance() in /var/www/lyari.com/controllers/ReportsController.php:8
+Stack trace:
+#0 /var/www/lyari.com/index.php(60): ReportsController->__construct()
+#1 {main}
+  thrown in /var/www/lyari.com/controllers/ReportsController.php on line 8
+[08-Dec-2024 22:09:56 Asia/Karachi] PHP Fatal error:  Uncaught Error: Call to undefined method Database::getInstance() in /var/www/lyari.com/controllers/ReportsController.php:8
+Stack trace:
+#0 /var/www/lyari.com/index.php(60): ReportsController->__construct()
+#1 {main}
+  thrown in /var/www/lyari.com/controllers/ReportsController.php on line 8
+[08-Dec-2024 22:09:57 Asia/Karachi] PHP Fatal error:  Uncaught Error: Call to undefined method Database::getInstance() in /var/www/lyari.com/controllers/ReportsController.php:8
+Stack trace:
+#0 /var/www/lyari.com/index.php(60): ReportsController->__construct()
+#1 {main}
+  thrown in /var/www/lyari.com/controllers/ReportsController.php on line 8
+[08-Dec-2024 22:09:57 Asia/Karachi] PHP Fatal error:  Uncaught Error: Call to undefined method Database::getInstance() in /var/www/lyari.com/controllers/ReportsController.php:8
+Stack trace:
+#0 /var/www/lyari.com/index.php(60): ReportsController->__construct()
+#1 {main}
+  thrown in /var/www/lyari.com/controllers/ReportsController.php on line 8
+[08-Dec-2024 22:09:57 Asia/Karachi] PHP Fatal error:  Uncaught Error: Call to undefined method Database::getInstance() in /var/www/lyari.com/controllers/ReportsController.php:8
+Stack trace:
+#0 /var/www/lyari.com/index.php(60): ReportsController->__construct()
+#1 {main}
+  thrown in /var/www/lyari.com/controllers/ReportsController.php on line 8
+[08-Dec-2024 22:09:57 Asia/Karachi] PHP Fatal error:  Uncaught Error: Call to undefined method Database::getInstance() in /var/www/lyari.com/controllers/ReportsController.php:8
+Stack trace:
+#0 /var/www/lyari.com/index.php(60): ReportsController->__construct()
+#1 {main}
+  thrown in /var/www/lyari.com/controllers/ReportsController.php on line 8
+[08-Dec-2024 22:09:57 Asia/Karachi] PHP Fatal error:  Uncaught Error: Call to undefined method Database::getInstance() in /var/www/lyari.com/controllers/ReportsController.php:8
+Stack trace:
+#0 /var/www/lyari.com/index.php(60): ReportsController->__construct()
+#1 {main}
+  thrown in /var/www/lyari.com/controllers/ReportsController.php on line 8
+[08-Dec-2024 22:09:57 Asia/Karachi] PHP Fatal error:  Uncaught Error: Call to undefined method Database::getInstance() in /var/www/lyari.com/controllers/ReportsController.php:8
+Stack trace:
+#0 /var/www/lyari.com/index.php(60): ReportsController->__construct()
+#1 {main}
+  thrown in /var/www/lyari.com/controllers/ReportsController.php on line 8
+[08-Dec-2024 22:09:59 Asia/Karachi] PHP Fatal error:  Uncaught Error: Call to undefined method Database::getInstance() in /var/www/lyari.com/controllers/ReportsController.php:8
+Stack trace:
+#0 /var/www/lyari.com/index.php(60): ReportsController->__construct()
+#1 {main}
+  thrown in /var/www/lyari.com/controllers/ReportsController.php on line 8
+[08-Dec-2024 17:13:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Database::getInstance() in /var/www/lyari.com/controllers/ReportsController.php:8
+Stack trace:
+#0 /var/www/lyari.com/index.php(39): ReportsController->__construct()
+#1 {main}
+  thrown in /var/www/lyari.com/controllers/ReportsController.php on line 8
+[08-Dec-2024 17:13:29 UTC] Fatal Error: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: Call to undefined method Database::getInstance() in /var/www/lyari.com/controllers/ReportsController.php:8
+Stack trace:
+#0 /var/www/lyari.com/index.php(39): ReportsController->__construct()
+#1 {main}
+  thrown
+    [file] => /var/www/lyari.com/controllers/ReportsController.php
+    [line] => 8
+)
+
+[08-Dec-2024 17:13:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Database::getInstance() in /var/www/lyari.com/controllers/ReportsController.php:8
+Stack trace:
+#0 /var/www/lyari.com/index.php(39): ReportsController->__construct()
+#1 {main}
+  thrown in /var/www/lyari.com/controllers/ReportsController.php on line 8
+[08-Dec-2024 17:13:29 UTC] Fatal Error: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: Call to undefined method Database::getInstance() in /var/www/lyari.com/controllers/ReportsController.php:8
+Stack trace:
+#0 /var/www/lyari.com/index.php(39): ReportsController->__construct()
+#1 {main}
+  thrown
+    [file] => /var/www/lyari.com/controllers/ReportsController.php
+    [line] => 8
+)
+
+[08-Dec-2024 17:13:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Database::getInstance() in /var/www/lyari.com/controllers/ReportsController.php:8
+Stack trace:
+#0 /var/www/lyari.com/index.php(39): ReportsController->__construct()
+#1 {main}
+  thrown in /var/www/lyari.com/controllers/ReportsController.php on line 8
+[08-Dec-2024 17:13:32 UTC] Fatal Error: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: Call to undefined method Database::getInstance() in /var/www/lyari.com/controllers/ReportsController.php:8
+Stack trace:
+#0 /var/www/lyari.com/index.php(39): ReportsController->__construct()
+#1 {main}
+  thrown
+    [file] => /var/www/lyari.com/controllers/ReportsController.php
+    [line] => 8
+)
+
+[08-Dec-2024 17:13:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Database::getInstance() in /var/www/lyari.com/controllers/ReportsController.php:8
+Stack trace:
+#0 /var/www/lyari.com/index.php(39): ReportsController->__construct()
+#1 {main}
+  thrown in /var/www/lyari.com/controllers/ReportsController.php on line 8
+[08-Dec-2024 17:13:32 UTC] Fatal Error: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: Call to undefined method Database::getInstance() in /var/www/lyari.com/controllers/ReportsController.php:8
+Stack trace:
+#0 /var/www/lyari.com/index.php(39): ReportsController->__construct()
+#1 {main}
+  thrown
+    [file] => /var/www/lyari.com/controllers/ReportsController.php
+    [line] => 8
+)
+
+[08-Dec-2024 17:13:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Database::getInstance() in /var/www/lyari.com/controllers/ReportsController.php:8
+Stack trace:
+#0 /var/www/lyari.com/index.php(39): ReportsController->__construct()
+#1 {main}
+  thrown in /var/www/lyari.com/controllers/ReportsController.php on line 8
+[08-Dec-2024 17:13:36 UTC] Fatal Error: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: Call to undefined method Database::getInstance() in /var/www/lyari.com/controllers/ReportsController.php:8
+Stack trace:
+#0 /var/www/lyari.com/index.php(39): ReportsController->__construct()
+#1 {main}
+  thrown
+    [file] => /var/www/lyari.com/controllers/ReportsController.php
+    [line] => 8
+)
+
+[08-Dec-2024 17:13:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Database::getInstance() in /var/www/lyari.com/controllers/ReportsController.php:8
+Stack trace:
+#0 /var/www/lyari.com/index.php(39): ReportsController->__construct()
+#1 {main}
+  thrown in /var/www/lyari.com/controllers/ReportsController.php on line 8
+[08-Dec-2024 17:13:36 UTC] Fatal Error: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: Call to undefined method Database::getInstance() in /var/www/lyari.com/controllers/ReportsController.php:8
+Stack trace:
+#0 /var/www/lyari.com/index.php(39): ReportsController->__construct()
+#1 {main}
+  thrown
+    [file] => /var/www/lyari.com/controllers/ReportsController.php
+    [line] => 8
+)
+
+[08-Dec-2024 17:14:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Database::getInstance() in /var/www/lyari.com/controllers/ReportsController.php:8
+Stack trace:
+#0 /var/www/lyari.com/index.php(39): ReportsController->__construct()
+#1 {main}
+  thrown in /var/www/lyari.com/controllers/ReportsController.php on line 8
+[08-Dec-2024 17:14:45 UTC] Fatal Error: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: Call to undefined method Database::getInstance() in /var/www/lyari.com/controllers/ReportsController.php:8
+Stack trace:
+#0 /var/www/lyari.com/index.php(39): ReportsController->__construct()
+#1 {main}
+  thrown
+    [file] => /var/www/lyari.com/controllers/ReportsController.php
+    [line] => 8
+)
+
+[08-Dec-2024 17:14:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Database::getInstance() in /var/www/lyari.com/controllers/ReportsController.php:8
+Stack trace:
+#0 /var/www/lyari.com/index.php(39): ReportsController->__construct()
+#1 {main}
+  thrown in /var/www/lyari.com/controllers/ReportsController.php on line 8
+[08-Dec-2024 17:14:45 UTC] Fatal Error: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: Call to undefined method Database::getInstance() in /var/www/lyari.com/controllers/ReportsController.php:8
+Stack trace:
+#0 /var/www/lyari.com/index.php(39): ReportsController->__construct()
+#1 {main}
+  thrown
+    [file] => /var/www/lyari.com/controllers/ReportsController.php
+    [line] => 8
+)
+
+[08-Dec-2024 17:15:05 UTC] Request URI: /devices
+[08-Dec-2024 17:15:05 UTC] Request Method: GET
+[08-Dec-2024 17:15:05 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 93
+[08-Dec-2024 17:15:05 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 99
+[08-Dec-2024 17:15:05 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 105
+[08-Dec-2024 17:15:05 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 114
+[08-Dec-2024 17:15:05 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 121
+[08-Dec-2024 17:15:05 UTC] Request URI: /favicon.ico
+[08-Dec-2024 17:15:05 UTC] Request Method: GET
+[08-Dec-2024 17:15:10 UTC] Request URI: /devices
+[08-Dec-2024 17:15:10 UTC] Request Method: GET
+[08-Dec-2024 17:15:10 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 93
+[08-Dec-2024 17:15:10 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 99
+[08-Dec-2024 17:15:10 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 105
+[08-Dec-2024 17:15:10 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 114
+[08-Dec-2024 17:15:10 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 121
+[08-Dec-2024 17:15:11 UTC] Request URI: /alerts
+[08-Dec-2024 17:15:11 UTC] Request Method: GET
+[08-Dec-2024 17:15:11 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 93
+[08-Dec-2024 17:15:11 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 99
+[08-Dec-2024 17:15:11 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 105
+[08-Dec-2024 17:15:11 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 114
+[08-Dec-2024 17:15:11 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 121
+[08-Dec-2024 17:15:13 UTC] Request URI: /reports
+[08-Dec-2024 17:15:13 UTC] Request Method: GET
+[08-Dec-2024 17:15:13 UTC] Application Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.generated_at' in 'order clause'
+[08-Dec-2024 17:17:05 UTC] Request URI: /reports
+[08-Dec-2024 17:17:05 UTC] Request Method: GET
+[08-Dec-2024 17:17:05 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 93
+[08-Dec-2024 17:17:05 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 99
+[08-Dec-2024 17:17:05 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 105
+[08-Dec-2024 17:17:05 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 114
+[08-Dec-2024 17:17:05 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 121
+[08-Dec-2024 17:17:08 UTC] Request URI: /reports
+[08-Dec-2024 17:17:08 UTC] Request Method: GET
+[08-Dec-2024 17:17:08 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 93
+[08-Dec-2024 17:17:08 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 99
+[08-Dec-2024 17:17:08 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 105
+[08-Dec-2024 17:17:08 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 114
+[08-Dec-2024 17:17:08 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 121
+[08-Dec-2024 17:17:10 UTC] Request URI: /settings
+[08-Dec-2024 17:17:10 UTC] Request Method: GET
+[08-Dec-2024 17:17:10 UTC] Error (2): require_once(/var/www/lyari.com/views/settings.php): Failed to open stream: No such file or directory in /var/www/lyari.com/index.php on line 118
+[08-Dec-2024 17:17:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/lyari.com/views/settings.php' (include_path='.:/usr/share/php') in /var/www/lyari.com/index.php:118
+Stack trace:
+#0 {main}
+  thrown in /var/www/lyari.com/index.php on line 118
+[08-Dec-2024 17:17:10 UTC] Fatal Error: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: Failed opening required '/var/www/lyari.com/views/settings.php' (include_path='.:/usr/share/php') in /var/www/lyari.com/index.php:118
+Stack trace:
+#0 {main}
+  thrown
+    [file] => /var/www/lyari.com/index.php
+    [line] => 118
+)
+
+[08-Dec-2024 17:17:17 UTC] Request URI: /reports
+[08-Dec-2024 17:17:17 UTC] Request Method: GET
+[08-Dec-2024 17:17:17 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 93
+[08-Dec-2024 17:17:17 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 99
+[08-Dec-2024 17:17:17 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 105
+[08-Dec-2024 17:17:17 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 114
+[08-Dec-2024 17:17:17 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 121
+[08-Dec-2024 17:17:19 UTC] Request URI: /dashboard
+[08-Dec-2024 17:17:19 UTC] Request Method: GET
+[08-Dec-2024 17:17:19 UTC] Error getting chart data: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'snmp_manager.metrics' doesn't exist
+[08-Dec-2024 17:17:19 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 93
+[08-Dec-2024 17:17:19 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 99
+[08-Dec-2024 17:17:19 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 105
+[08-Dec-2024 17:17:19 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 114
+[08-Dec-2024 17:17:19 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 121
+[08-Dec-2024 17:17:26 UTC] Request URI: /alerts/acknowledge/24
+[08-Dec-2024 17:17:26 UTC] Request Method: POST
+[08-Dec-2024 17:17:35 UTC] Request URI: /dashboard
+[08-Dec-2024 17:17:35 UTC] Request Method: GET
+[08-Dec-2024 17:17:35 UTC] Error getting chart data: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'snmp_manager.metrics' doesn't exist
+[08-Dec-2024 17:17:35 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 93
+[08-Dec-2024 17:17:35 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 99
+[08-Dec-2024 17:17:35 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 105
+[08-Dec-2024 17:17:35 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 114
+[08-Dec-2024 17:17:35 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 121
+[08-Dec-2024 17:18:15 UTC] Request URI: /alerts
+[08-Dec-2024 17:18:15 UTC] Request Method: GET
+[08-Dec-2024 17:18:15 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 93
+[08-Dec-2024 17:18:15 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 99
+[08-Dec-2024 17:18:15 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 105
+[08-Dec-2024 17:18:15 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 114
+[08-Dec-2024 17:18:15 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 121
+[08-Dec-2024 17:18:19 UTC] Request URI: /reports
+[08-Dec-2024 17:18:19 UTC] Request Method: GET
+[08-Dec-2024 17:18:19 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 93
+[08-Dec-2024 17:18:19 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 99
+[08-Dec-2024 17:18:19 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 105
+[08-Dec-2024 17:18:19 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 114
+[08-Dec-2024 17:18:19 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 121
+[08-Dec-2024 17:18:21 UTC] Request URI: /dashboard
+[08-Dec-2024 17:18:21 UTC] Request Method: GET
+[08-Dec-2024 17:18:21 UTC] Error getting chart data: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'snmp_manager.metrics' doesn't exist
+[08-Dec-2024 17:18:21 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 93
+[08-Dec-2024 17:18:21 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 99
+[08-Dec-2024 17:18:21 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 105
+[08-Dec-2024 17:18:21 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 114
+[08-Dec-2024 17:18:21 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 121
+[08-Dec-2024 17:18:22 UTC] Request URI: /alerts
+[08-Dec-2024 17:18:22 UTC] Request Method: GET
+[08-Dec-2024 17:18:22 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 93
+[08-Dec-2024 17:18:22 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 99
+[08-Dec-2024 17:18:22 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 105
+[08-Dec-2024 17:18:22 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 114
+[08-Dec-2024 17:18:22 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 121
+[08-Dec-2024 17:18:28 UTC] Request URI: /dashboard
+[08-Dec-2024 17:18:28 UTC] Request Method: GET
+[08-Dec-2024 17:18:28 UTC] Error getting chart data: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'snmp_manager.metrics' doesn't exist
+[08-Dec-2024 17:18:28 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 93
+[08-Dec-2024 17:18:28 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 99
+[08-Dec-2024 17:18:28 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 105
+[08-Dec-2024 17:18:28 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 114
+[08-Dec-2024 17:18:28 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 121
+[08-Dec-2024 17:18:50 UTC] Request URI: /dashboard
+[08-Dec-2024 17:18:50 UTC] Request Method: GET
+[08-Dec-2024 17:18:50 UTC] Error getting chart data: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'snmp_manager.metrics' doesn't exist
+[08-Dec-2024 17:18:50 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 93
+[08-Dec-2024 17:18:50 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 99
+[08-Dec-2024 17:18:50 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 105
+[08-Dec-2024 17:18:50 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 114
+[08-Dec-2024 17:18:50 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 121
+[08-Dec-2024 17:21:29 UTC] Request URI: /dashboard
+[08-Dec-2024 17:21:29 UTC] Request Method: GET
+[08-Dec-2024 17:21:29 UTC] Error getting chart data: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'snmp_manager.metrics' doesn't exist
+[08-Dec-2024 17:21:29 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 93
+[08-Dec-2024 17:21:29 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 99
+[08-Dec-2024 17:21:29 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 105
+[08-Dec-2024 17:21:29 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 114
+[08-Dec-2024 17:21:29 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 121
+[08-Dec-2024 17:21:35 UTC] Request URI: /reports
+[08-Dec-2024 17:21:35 UTC] Request Method: GET
+[08-Dec-2024 17:21:35 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 93
+[08-Dec-2024 17:21:35 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 99
+[08-Dec-2024 17:21:35 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 105
+[08-Dec-2024 17:21:35 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 114
+[08-Dec-2024 17:21:35 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 121
+[08-Dec-2024 17:21:36 UTC] Request URI: /settings
+[08-Dec-2024 17:21:36 UTC] Request Method: GET
+[08-Dec-2024 17:21:36 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 93
+[08-Dec-2024 17:21:36 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 99
+[08-Dec-2024 17:21:36 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 105
+[08-Dec-2024 17:21:36 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 114
+[08-Dec-2024 17:21:36 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 121
+[08-Dec-2024 17:23:32 UTC] Request URI: /settings
+[08-Dec-2024 17:23:32 UTC] Request Method: GET
+[08-Dec-2024 17:23:32 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 93
+[08-Dec-2024 17:23:32 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 99
+[08-Dec-2024 17:23:32 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 105
+[08-Dec-2024 17:23:32 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 114
+[08-Dec-2024 17:23:32 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 121
+[08-Dec-2024 17:23:34 UTC] Request URI: /settings
+[08-Dec-2024 17:23:34 UTC] Request Method: GET
+[08-Dec-2024 17:23:34 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 93
+[08-Dec-2024 17:23:34 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 99
+[08-Dec-2024 17:23:34 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 105
+[08-Dec-2024 17:23:34 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 114
+[08-Dec-2024 17:23:34 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 121
+[08-Dec-2024 17:23:37 UTC] Request URI: /dashboard
+[08-Dec-2024 17:23:37 UTC] Request Method: GET
+[08-Dec-2024 17:23:37 UTC] Error getting chart data: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'snmp_manager.metrics' doesn't exist
+[08-Dec-2024 17:23:37 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 93
+[08-Dec-2024 17:23:37 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 99
+[08-Dec-2024 17:23:37 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 105
+[08-Dec-2024 17:23:37 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 114
+[08-Dec-2024 17:23:37 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 121
+[08-Dec-2024 17:23:51 UTC] Request URI: /dashboard
+[08-Dec-2024 17:23:51 UTC] Request Method: GET
+[08-Dec-2024 17:23:51 UTC] Error getting chart data: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'snmp_manager.metrics' doesn't exist
+[08-Dec-2024 17:23:51 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 125
+[08-Dec-2024 17:23:51 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 131
+[08-Dec-2024 17:23:51 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 137
+[08-Dec-2024 17:23:51 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 146
+[08-Dec-2024 17:23:51 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 152
+[08-Dec-2024 17:23:54 UTC] Request URI: /devices
+[08-Dec-2024 17:23:54 UTC] Request Method: GET
+[08-Dec-2024 17:23:54 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 125
+[08-Dec-2024 17:23:54 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 131
+[08-Dec-2024 17:23:54 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 137
+[08-Dec-2024 17:23:54 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 146
+[08-Dec-2024 17:23:54 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 152
+[08-Dec-2024 17:23:55 UTC] Request URI: /dashboard
+[08-Dec-2024 17:23:55 UTC] Request Method: GET
+[08-Dec-2024 17:23:55 UTC] Error getting chart data: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'snmp_manager.metrics' doesn't exist
+[08-Dec-2024 17:23:55 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 125
+[08-Dec-2024 17:23:55 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 131
+[08-Dec-2024 17:23:55 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 137
+[08-Dec-2024 17:23:55 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 146
+[08-Dec-2024 17:23:55 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 152
+[08-Dec-2024 17:24:02 UTC] Request URI: /alerts
+[08-Dec-2024 17:24:02 UTC] Request Method: GET
+[08-Dec-2024 17:24:02 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 125
+[08-Dec-2024 17:24:02 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 131
+[08-Dec-2024 17:24:02 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 137
+[08-Dec-2024 17:24:02 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 146
+[08-Dec-2024 17:24:02 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 152
+[08-Dec-2024 17:24:02 UTC] Request URI: /reports
+[08-Dec-2024 17:24:02 UTC] Request Method: GET
+[08-Dec-2024 17:24:02 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 125
+[08-Dec-2024 17:24:02 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 131
+[08-Dec-2024 17:24:02 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 137
+[08-Dec-2024 17:24:02 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 146
+[08-Dec-2024 17:24:02 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 152
+[08-Dec-2024 17:24:15 UTC] Request URI: /settings
+[08-Dec-2024 17:24:15 UTC] Request Method: GET
+[08-Dec-2024 17:24:15 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 125
+[08-Dec-2024 17:24:15 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 131
+[08-Dec-2024 17:24:15 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 137
+[08-Dec-2024 17:24:15 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 146
+[08-Dec-2024 17:24:15 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 152
+[08-Dec-2024 17:24:34 UTC] Request URI: /settings/save
+[08-Dec-2024 17:24:34 UTC] Request Method: POST
+[08-Dec-2024 17:24:34 UTC] Error saving settings: SQLSTATE[HY000]: General error: 1364 Field 'category' doesn't have a default value
+[08-Dec-2024 17:24:46 UTC] Request URI: /settings/save
+[08-Dec-2024 17:24:46 UTC] Request Method: POST
+[08-Dec-2024 17:24:46 UTC] Error saving settings: SQLSTATE[HY000]: General error: 1364 Field 'category' doesn't have a default value
+[08-Dec-2024 17:24:48 UTC] Request URI: /settings
+[08-Dec-2024 17:24:48 UTC] Request Method: GET
+[08-Dec-2024 17:24:48 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 125
+[08-Dec-2024 17:24:48 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 131
+[08-Dec-2024 17:24:48 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 137
+[08-Dec-2024 17:24:48 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 146
+[08-Dec-2024 17:24:48 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 152
+[08-Dec-2024 17:24:53 UTC] Request URI: /settings/save
+[08-Dec-2024 17:24:53 UTC] Request Method: POST
+[08-Dec-2024 17:24:53 UTC] Error saving settings: SQLSTATE[HY000]: General error: 1364 Field 'category' doesn't have a default value
+[08-Dec-2024 17:24:56 UTC] Request URI: /settings/save
+[08-Dec-2024 17:24:56 UTC] Request Method: POST
+[08-Dec-2024 17:24:56 UTC] Error saving settings: SQLSTATE[HY000]: General error: 1364 Field 'category' doesn't have a default value
+[08-Dec-2024 17:25:12 UTC] Request URI: /dashboard
+[08-Dec-2024 17:25:12 UTC] Request Method: GET
+[08-Dec-2024 17:25:12 UTC] Error getting chart data: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'snmp_manager.metrics' doesn't exist
+[08-Dec-2024 17:25:12 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 125
+[08-Dec-2024 17:25:12 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 131
+[08-Dec-2024 17:25:12 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 137
+[08-Dec-2024 17:25:12 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 146
+[08-Dec-2024 17:25:12 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 152
+[08-Dec-2024 17:26:32 UTC] Request URI: /dashboard/chart-data
+[08-Dec-2024 17:26:32 UTC] Request Method: GET
+[08-Dec-2024 17:26:32 UTC] Error getting chart data: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'snmp_manager.metrics' doesn't exist
+[08-Dec-2024 17:26:35 UTC] Request URI: /dashboard
+[08-Dec-2024 17:26:35 UTC] Request Method: GET
+[08-Dec-2024 17:26:35 UTC] Error getting chart data: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'snmp_manager.metrics' doesn't exist
+[08-Dec-2024 17:26:35 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 125
+[08-Dec-2024 17:26:35 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 131
+[08-Dec-2024 17:26:35 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 137
+[08-Dec-2024 17:26:35 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 146
+[08-Dec-2024 17:26:35 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 152
+[08-Dec-2024 17:27:00 UTC] Request URI: /dashboard
+[08-Dec-2024 17:27:00 UTC] Request Method: GET
+[08-Dec-2024 17:27:00 UTC] Error getting chart data: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'snmp_manager.metrics' doesn't exist
+[08-Dec-2024 17:27:00 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 125
+[08-Dec-2024 17:27:00 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 131
+[08-Dec-2024 17:27:00 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 137
+[08-Dec-2024 17:27:00 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 146
+[08-Dec-2024 17:27:00 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 152
+[08-Dec-2024 17:27:01 UTC] Request URI: /dashboard
+[08-Dec-2024 17:27:01 UTC] Request Method: GET
+[08-Dec-2024 17:27:01 UTC] Error getting chart data: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'snmp_manager.metrics' doesn't exist
+[08-Dec-2024 17:27:01 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 125
+[08-Dec-2024 17:27:01 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 131
+[08-Dec-2024 17:27:01 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 137
+[08-Dec-2024 17:27:01 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 146
+[08-Dec-2024 17:27:01 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 152
+[08-Dec-2024 17:27:01 UTC] Request URI: /favicon.ico
+[08-Dec-2024 17:27:01 UTC] Request Method: GET
+[08-Dec-2024 17:27:08 UTC] Request URI: /settings
+[08-Dec-2024 17:27:08 UTC] Request Method: GET
+[08-Dec-2024 17:27:08 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 125
+[08-Dec-2024 17:27:08 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 131
+[08-Dec-2024 17:27:08 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 137
+[08-Dec-2024 17:27:08 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 146
+[08-Dec-2024 17:27:08 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 152
+[08-Dec-2024 17:27:11 UTC] Request URI: /settings/save
+[08-Dec-2024 17:27:11 UTC] Request Method: POST
+[08-Dec-2024 17:27:11 UTC] Received settings data: {"snmp_version":"2c","community_string":"public","snmp_timeout":"5","snmp_retries":"3"}
+[08-Dec-2024 17:27:11 UTC] Error saving settings: SQLSTATE[HY000]: General error: 1364 Field 'category' doesn't have a default value
+[08-Dec-2024 17:27:11 UTC] Stack trace: #0 /var/www/lyari.com/controllers/SettingsController.php(82): PDOStatement->execute()
+#1 /var/www/lyari.com/index.php(124): SettingsController->save()
+#2 {main}
+[08-Dec-2024 17:27:15 UTC] Request URI: /settings/save
+[08-Dec-2024 17:27:15 UTC] Request Method: POST
+[08-Dec-2024 17:27:15 UTC] Received settings data: {"snmp_version":"2c","community_string":"public","snmp_timeout":"5","snmp_retries":"3"}
+[08-Dec-2024 17:27:15 UTC] Error saving settings: SQLSTATE[HY000]: General error: 1364 Field 'category' doesn't have a default value
+[08-Dec-2024 17:27:15 UTC] Stack trace: #0 /var/www/lyari.com/controllers/SettingsController.php(82): PDOStatement->execute()
+#1 /var/www/lyari.com/index.php(124): SettingsController->save()
+#2 {main}
+[08-Dec-2024 17:27:58 UTC] Request URI: /settings/save
+[08-Dec-2024 17:27:58 UTC] Request Method: POST
+[08-Dec-2024 17:27:58 UTC] Received settings data: {"smtp_server":"","smtp_port":"587","smtp_username":"","smtp_password":"","from_email":"","smtp_secure":true}
+[08-Dec-2024 17:27:58 UTC] Error saving settings: SQLSTATE[HY000]: General error: 1364 Field 'category' doesn't have a default value
+[08-Dec-2024 17:27:58 UTC] Stack trace: #0 /var/www/lyari.com/controllers/SettingsController.php(82): PDOStatement->execute()
+#1 /var/www/lyari.com/index.php(124): SettingsController->save()
+#2 {main}
+[08-Dec-2024 17:28:02 UTC] Request URI: /settings
+[08-Dec-2024 17:28:02 UTC] Request Method: GET
+[08-Dec-2024 17:28:02 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 125
+[08-Dec-2024 17:28:02 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 131
+[08-Dec-2024 17:28:02 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 137
+[08-Dec-2024 17:28:02 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 146
+[08-Dec-2024 17:28:02 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 152
+[08-Dec-2024 17:28:10 UTC] Request URI: /settings/save
+[08-Dec-2024 17:28:10 UTC] Request Method: POST
+[08-Dec-2024 17:28:10 UTC] Received settings data: {"monitoring_interval":"5","data_retention":"30","auto_discovery":true,"alert_enabled":true}
+[08-Dec-2024 17:28:10 UTC] Error saving settings: SQLSTATE[HY000]: General error: 1364 Field 'category' doesn't have a default value
+[08-Dec-2024 17:28:10 UTC] Stack trace: #0 /var/www/lyari.com/controllers/SettingsController.php(82): PDOStatement->execute()
+#1 /var/www/lyari.com/index.php(124): SettingsController->save()
+#2 {main}
+[08-Dec-2024 17:29:22 UTC] Request URI: /settings
+[08-Dec-2024 17:29:22 UTC] Request Method: GET
+[08-Dec-2024 17:29:32 UTC] Request URI: /settings/save
+[08-Dec-2024 17:29:32 UTC] Request Method: POST
+[08-Dec-2024 17:29:32 UTC] Received settings data: {"monitoring_interval":"5","data_retention":"30","auto_discovery":true,"alert_enabled":true}
+[08-Dec-2024 17:29:35 UTC] Request URI: /settings
+[08-Dec-2024 17:29:35 UTC] Request Method: GET
+[08-Dec-2024 17:29:40 UTC] Request URI: /settings/save
+[08-Dec-2024 17:29:40 UTC] Request Method: POST
+[08-Dec-2024 17:29:40 UTC] Received settings data: {"monitoring_interval":"5","data_retention":"30","auto_discovery":true,"alert_enabled":true}
+[08-Dec-2024 17:29:49 UTC] Request URI: /settings/save
+[08-Dec-2024 17:29:49 UTC] Request Method: POST
+[08-Dec-2024 17:29:49 UTC] Received settings data: {"timezone":"UTC","date_format":"Y-m-d","maintenance_mode":true}
+[08-Dec-2024 17:29:51 UTC] Request URI: /settings
+[08-Dec-2024 17:29:51 UTC] Request Method: GET
+[08-Dec-2024 17:30:01 UTC] Request URI: /dashboard
+[08-Dec-2024 17:30:01 UTC] Request Method: GET
+[08-Dec-2024 17:30:01 UTC] Error getting chart data: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'snmp_manager.metrics' doesn't exist
+[08-Dec-2024 17:30:01 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 125
+[08-Dec-2024 17:30:01 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 131
+[08-Dec-2024 17:30:01 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 137
+[08-Dec-2024 17:30:01 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 146
+[08-Dec-2024 17:30:01 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 152
+[08-Dec-2024 17:30:57 UTC] Request URI: /dashboard
+[08-Dec-2024 17:30:57 UTC] Request Method: GET
+[08-Dec-2024 17:30:57 UTC] Error getting chart data: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'snmp_manager.metrics' doesn't exist
+[08-Dec-2024 17:30:57 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 125
+[08-Dec-2024 17:30:57 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 131
+[08-Dec-2024 17:30:57 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 137
+[08-Dec-2024 17:30:57 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 146
+[08-Dec-2024 17:30:57 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 152
+[08-Dec-2024 17:31:05 UTC] Request URI: /alerts/acknowledge/24
+[08-Dec-2024 17:31:05 UTC] Request Method: POST
+[08-Dec-2024 17:32:33 UTC] Request URI: /dashboard
+[08-Dec-2024 17:32:33 UTC] Request Method: GET
+[08-Dec-2024 17:32:33 UTC] Error getting chart data: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'snmp_manager.metrics' doesn't exist
+[08-Dec-2024 17:32:33 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 125
+[08-Dec-2024 17:32:33 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 131
+[08-Dec-2024 17:32:33 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 137
+[08-Dec-2024 17:32:33 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 146
+[08-Dec-2024 17:32:33 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 152
+[08-Dec-2024 17:32:46 UTC] Request URI: /alerts/acknowledge/15
+[08-Dec-2024 17:32:46 UTC] Request Method: POST
+[08-Dec-2024 17:33:15 UTC] Request URI: /settings
+[08-Dec-2024 17:33:15 UTC] Request Method: GET
+[08-Dec-2024 17:33:17 UTC] Request URI: /settings/save
+[08-Dec-2024 17:33:17 UTC] Request Method: POST
+[08-Dec-2024 17:33:17 UTC] Received settings data: {"snmp_version":"2c","community_string":"public","snmp_timeout":"5","snmp_retries":"3"}
+[08-Dec-2024 17:33:25 UTC] Request URI: /settings/save
+[08-Dec-2024 17:33:25 UTC] Request Method: POST
+[08-Dec-2024 17:33:25 UTC] Received settings data: {"monitoring_interval":"5","data_retention":"29","auto_discovery":true,"alert_enabled":true}
+[08-Dec-2024 17:33:28 UTC] Request URI: /settings
+[08-Dec-2024 17:33:28 UTC] Request Method: GET
+[08-Dec-2024 17:33:34 UTC] Request URI: /dashboard
+[08-Dec-2024 17:33:34 UTC] Request Method: GET
+[08-Dec-2024 17:33:34 UTC] Error getting chart data: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'snmp_manager.metrics' doesn't exist
+[08-Dec-2024 17:33:34 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 125
+[08-Dec-2024 17:33:34 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 131
+[08-Dec-2024 17:33:34 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 137
+[08-Dec-2024 17:33:34 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 146
+[08-Dec-2024 17:33:34 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 152
+[08-Dec-2024 17:33:37 UTC] Request URI: /reports
+[08-Dec-2024 17:33:37 UTC] Request Method: GET
+[08-Dec-2024 17:33:37 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 125
+[08-Dec-2024 17:33:37 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 131
+[08-Dec-2024 17:33:37 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 137
+[08-Dec-2024 17:33:37 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 146
+[08-Dec-2024 17:33:37 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 152
+[08-Dec-2024 17:33:43 UTC] Request URI: /devices
+[08-Dec-2024 17:33:43 UTC] Request Method: GET
+[08-Dec-2024 17:33:43 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 125
+[08-Dec-2024 17:33:43 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 131
+[08-Dec-2024 17:33:43 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 137
+[08-Dec-2024 17:33:43 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 146
+[08-Dec-2024 17:33:43 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 152
+[08-Dec-2024 17:33:46 UTC] Request URI: /monitor/5
+[08-Dec-2024 17:33:46 UTC] Request Method: GET
+[08-Dec-2024 17:33:46 UTC] Error (8192): Implicit conversion from float 41850667.59 to int loses precision in /var/www/lyari.com/controllers/SNMPController.php on line 283
+[08-Dec-2024 17:33:46 UTC] Error (8192): Implicit conversion from float 41850667.59 to int loses precision in /var/www/lyari.com/controllers/SNMPController.php on line 284
+[08-Dec-2024 17:34:24 UTC] Request URI: /monitor/4
+[08-Dec-2024 17:34:24 UTC] Request Method: GET
+[08-Dec-2024 17:34:24 UTC] Error (8192): Implicit conversion from float 35826905.67 to int loses precision in /var/www/lyari.com/controllers/SNMPController.php on line 283
+[08-Dec-2024 17:34:24 UTC] Error (8192): Implicit conversion from float 35826905.67 to int loses precision in /var/www/lyari.com/controllers/SNMPController.php on line 284
+[08-Dec-2024 17:35:13 UTC] Request URI: /monitor/5
+[08-Dec-2024 17:35:13 UTC] Request Method: GET
+[08-Dec-2024 17:35:13 UTC] Error (8192): Implicit conversion from float 41850757.1 to int loses precision in /var/www/lyari.com/controllers/SNMPController.php on line 283
+[08-Dec-2024 17:35:13 UTC] Error (8192): Implicit conversion from float 41850757.1 to int loses precision in /var/www/lyari.com/controllers/SNMPController.php on line 284
+[08-Dec-2024 17:35:34 UTC] Request URI: /dashboard
+[08-Dec-2024 17:35:34 UTC] Request Method: GET
+[08-Dec-2024 17:35:34 UTC] Error getting chart data: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'snmp_manager.metrics' doesn't exist
+[08-Dec-2024 17:35:34 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 125
+[08-Dec-2024 17:35:34 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 131
+[08-Dec-2024 17:35:34 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 137
+[08-Dec-2024 17:35:34 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 146
+[08-Dec-2024 17:35:34 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 152
+[08-Dec-2024 17:35:54 UTC] Request URI: /alerts
+[08-Dec-2024 17:35:54 UTC] Request Method: GET
+[08-Dec-2024 17:35:54 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 125
+[08-Dec-2024 17:35:54 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 131
+[08-Dec-2024 17:35:54 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 137
+[08-Dec-2024 17:35:54 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 146
+[08-Dec-2024 17:35:54 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 152
+[08-Dec-2024 17:37:17 UTC] Request URI: /dashboard
+[08-Dec-2024 17:37:17 UTC] Request Method: GET
+[08-Dec-2024 17:37:17 UTC] Error getting chart data: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'snmp_manager.metrics' doesn't exist
+[08-Dec-2024 17:37:17 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 125
+[08-Dec-2024 17:37:17 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 131
+[08-Dec-2024 17:37:17 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 137
+[08-Dec-2024 17:37:17 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 146
+[08-Dec-2024 17:37:17 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 152
+[08-Dec-2024 17:37:24 UTC] Request URI: /alerts
+[08-Dec-2024 17:37:24 UTC] Request Method: GET
+[08-Dec-2024 17:37:24 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 125
+[08-Dec-2024 17:37:24 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 131
+[08-Dec-2024 17:37:24 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 137
+[08-Dec-2024 17:37:24 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 146
+[08-Dec-2024 17:37:24 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 152
+[08-Dec-2024 17:37:34 UTC] Request URI: /dashboard
+[08-Dec-2024 17:37:34 UTC] Request Method: GET
+[08-Dec-2024 17:37:34 UTC] Error getting chart data: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'snmp_manager.metrics' doesn't exist
+[08-Dec-2024 17:37:34 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 125
+[08-Dec-2024 17:37:34 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 131
+[08-Dec-2024 17:37:34 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 137
+[08-Dec-2024 17:37:34 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 146
+[08-Dec-2024 17:37:34 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 152
+[08-Dec-2024 17:40:01 UTC] Request URI: /dashboard
+[08-Dec-2024 17:40:01 UTC] Request Method: GET
+[08-Dec-2024 17:40:01 UTC] Error getting chart data: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'snmp_manager.metrics' doesn't exist
+[08-Dec-2024 17:40:01 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 125
+[08-Dec-2024 17:40:01 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 131
+[08-Dec-2024 17:40:01 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 137
+[08-Dec-2024 17:40:01 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 146
+[08-Dec-2024 17:40:01 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 152
+[08-Dec-2024 17:40:19 UTC] Request URI: /dashboard
+[08-Dec-2024 17:40:19 UTC] Request Method: GET
+[08-Dec-2024 17:40:19 UTC] Error getting chart data: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'snmp_manager.metrics' doesn't exist
+[08-Dec-2024 17:40:19 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 125
+[08-Dec-2024 17:40:19 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 131
+[08-Dec-2024 17:40:19 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 137
+[08-Dec-2024 17:40:19 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 146
+[08-Dec-2024 17:40:19 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 152
+[08-Dec-2024 17:43:27 UTC] Request URI: /dashboard
+[08-Dec-2024 17:43:27 UTC] Request Method: GET
+[08-Dec-2024 17:43:27 UTC] Error getting chart data: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'snmp_manager.metrics' doesn't exist
+[08-Dec-2024 17:43:27 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 125
+[08-Dec-2024 17:43:27 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 131
+[08-Dec-2024 17:43:27 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 137
+[08-Dec-2024 17:43:27 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 146
+[08-Dec-2024 17:43:27 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 152
+[08-Dec-2024 17:43:34 UTC] Request URI: /alerts
+[08-Dec-2024 17:43:34 UTC] Request Method: GET
+[08-Dec-2024 17:43:34 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 125
+[08-Dec-2024 17:43:34 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 131
+[08-Dec-2024 17:43:34 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 137
+[08-Dec-2024 17:43:34 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 146
+[08-Dec-2024 17:43:34 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 152
+[08-Dec-2024 17:43:56 UTC] Request URI: /alerts/acknowledge/25
+[08-Dec-2024 17:43:56 UTC] Request Method: POST
+[08-Dec-2024 17:43:59 UTC] Request URI: /alerts
+[08-Dec-2024 17:43:59 UTC] Request Method: GET
+[08-Dec-2024 17:43:59 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 125
+[08-Dec-2024 17:43:59 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 131
+[08-Dec-2024 17:43:59 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 137
+[08-Dec-2024 17:43:59 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 146
+[08-Dec-2024 17:43:59 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 152
+[08-Dec-2024 17:44:05 UTC] Request URI: /devices
+[08-Dec-2024 17:44:05 UTC] Request Method: GET
+[08-Dec-2024 17:44:05 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 125
+[08-Dec-2024 17:44:05 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 131
+[08-Dec-2024 17:44:05 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 137
+[08-Dec-2024 17:44:05 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 146
+[08-Dec-2024 17:44:05 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 152
+[08-Dec-2024 17:44:32 UTC] Request URI: /devices
+[08-Dec-2024 17:44:32 UTC] Request Method: POST
+[08-Dec-2024 17:44:33 UTC] Request URI: /devices
+[08-Dec-2024 17:44:33 UTC] Request Method: GET
+[08-Dec-2024 17:44:33 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 125
+[08-Dec-2024 17:44:33 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 131
+[08-Dec-2024 17:44:33 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 137
+[08-Dec-2024 17:44:33 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 146
+[08-Dec-2024 17:44:33 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 152
+[08-Dec-2024 17:44:35 UTC] Request URI: /alerts
+[08-Dec-2024 17:44:35 UTC] Request Method: GET
+[08-Dec-2024 17:44:35 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 125
+[08-Dec-2024 17:44:35 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 131
+[08-Dec-2024 17:44:35 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 137
+[08-Dec-2024 17:44:35 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 146
+[08-Dec-2024 17:44:35 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 152
+[08-Dec-2024 17:44:37 UTC] Request URI: /dashboard
+[08-Dec-2024 17:44:37 UTC] Request Method: GET
+[08-Dec-2024 17:44:37 UTC] Error getting chart data: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'snmp_manager.metrics' doesn't exist
+[08-Dec-2024 17:44:37 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 125
+[08-Dec-2024 17:44:37 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 131
+[08-Dec-2024 17:44:37 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 137
+[08-Dec-2024 17:44:37 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 146
+[08-Dec-2024 17:44:37 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 152
+[08-Dec-2024 17:44:38 UTC] Request URI: /dashboard
+[08-Dec-2024 17:44:38 UTC] Request Method: GET
+[08-Dec-2024 17:44:38 UTC] Error getting chart data: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'snmp_manager.metrics' doesn't exist
+[08-Dec-2024 17:44:38 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 125
+[08-Dec-2024 17:44:38 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 131
+[08-Dec-2024 17:44:38 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 137
+[08-Dec-2024 17:44:38 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 146
+[08-Dec-2024 17:44:38 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 152
+[08-Dec-2024 17:44:38 UTC] Request URI: /alerts
+[08-Dec-2024 17:44:38 UTC] Request Method: GET
+[08-Dec-2024 17:44:38 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 125
+[08-Dec-2024 17:44:38 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 131
+[08-Dec-2024 17:44:38 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 137
+[08-Dec-2024 17:44:38 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 146
+[08-Dec-2024 17:44:38 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 152
+[08-Dec-2024 17:45:09 UTC] Request URI: /alerts
+[08-Dec-2024 17:45:09 UTC] Request Method: GET
+[08-Dec-2024 17:45:09 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 125
+[08-Dec-2024 17:45:09 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 131
+[08-Dec-2024 17:45:09 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 137
+[08-Dec-2024 17:45:09 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 146
+[08-Dec-2024 17:45:09 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 152
+[08-Dec-2024 17:45:13 UTC] Request URI: /dashboard
+[08-Dec-2024 17:45:13 UTC] Request Method: GET
+[08-Dec-2024 17:45:13 UTC] Error getting chart data: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'snmp_manager.metrics' doesn't exist
+[08-Dec-2024 17:45:13 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 125
+[08-Dec-2024 17:45:13 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 131
+[08-Dec-2024 17:45:13 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 137
+[08-Dec-2024 17:45:13 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 146
+[08-Dec-2024 17:45:13 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 152
+[08-Dec-2024 17:45:21 UTC] Request URI: /devices
+[08-Dec-2024 17:45:21 UTC] Request Method: GET
+[08-Dec-2024 17:45:21 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 125
+[08-Dec-2024 17:45:21 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 131
+[08-Dec-2024 17:45:21 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 137
+[08-Dec-2024 17:45:21 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 146
+[08-Dec-2024 17:45:21 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 152
+[08-Dec-2024 17:45:25 UTC] Request URI: /monitor/6
+[08-Dec-2024 17:45:25 UTC] Request Method: GET
+[08-Dec-2024 17:45:25 UTC] Error (8192): Implicit conversion from float 35827398.03 to int loses precision in /var/www/lyari.com/controllers/SNMPController.php on line 283
+[08-Dec-2024 17:45:25 UTC] Error (8192): Implicit conversion from float 35827398.03 to int loses precision in /var/www/lyari.com/controllers/SNMPController.php on line 284
+[09-Dec-2024 07:28:35 UTC] Request URI: /devices
+[09-Dec-2024 07:28:35 UTC] Request Method: GET
+[09-Dec-2024 07:28:35 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 125
+[09-Dec-2024 07:28:35 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 131
+[09-Dec-2024 07:28:35 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 137
+[09-Dec-2024 07:28:35 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 146
+[09-Dec-2024 07:28:35 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 152
+[09-Dec-2024 07:28:35 UTC] Request URI: /favicon.ico
+[09-Dec-2024 07:28:35 UTC] Request Method: GET
+[09-Dec-2024 07:28:37 UTC] Request URI: /dashboard
+[09-Dec-2024 07:28:37 UTC] Request Method: GET
+[09-Dec-2024 07:28:37 UTC] Error getting chart data: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'snmp_manager.metrics' doesn't exist
+[09-Dec-2024 07:28:37 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 125
+[09-Dec-2024 07:28:37 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 131
+[09-Dec-2024 07:28:37 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 137
+[09-Dec-2024 07:28:37 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 146
+[09-Dec-2024 07:28:37 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 152
+[09-Dec-2024 07:28:41 UTC] Request URI: /devices
+[09-Dec-2024 07:28:41 UTC] Request Method: GET
+[09-Dec-2024 07:28:41 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 125
+[09-Dec-2024 07:28:41 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 131
+[09-Dec-2024 07:28:41 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 137
+[09-Dec-2024 07:28:41 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 146
+[09-Dec-2024 07:28:41 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 152
+[09-Dec-2024 07:28:44 UTC] Request URI: /monitor/6
+[09-Dec-2024 07:28:44 UTC] Request Method: GET
+[09-Dec-2024 07:28:44 UTC] Error (8192): Implicit conversion from float 35876794.38 to int loses precision in /var/www/lyari.com/controllers/SNMPController.php on line 283
+[09-Dec-2024 07:28:44 UTC] Error (8192): Implicit conversion from float 35876794.38 to int loses precision in /var/www/lyari.com/controllers/SNMPController.php on line 284
+[09-Dec-2024 07:29:29 UTC] Request URI: /monitor/5
+[09-Dec-2024 07:29:29 UTC] Request Method: GET
+[09-Dec-2024 07:29:29 UTC] Error (8192): Implicit conversion from float 41900810.63 to int loses precision in /var/www/lyari.com/controllers/SNMPController.php on line 283
+[09-Dec-2024 07:29:29 UTC] Error (8192): Implicit conversion from float 41900810.63 to int loses precision in /var/www/lyari.com/controllers/SNMPController.php on line 284
+[09-Dec-2024 07:30:46 UTC] Request URI: /monitor/5
+[09-Dec-2024 07:30:46 UTC] Request Method: GET
+[09-Dec-2024 07:30:46 UTC] Error (8192): Implicit conversion from float 41900888.17 to int loses precision in /var/www/lyari.com/controllers/SNMPController.php on line 283
+[09-Dec-2024 07:30:46 UTC] Error (8192): Implicit conversion from float 41900888.17 to int loses precision in /var/www/lyari.com/controllers/SNMPController.php on line 284
+[09-Dec-2024 07:31:20 UTC] Request URI: /dashboard
+[09-Dec-2024 07:31:20 UTC] Request Method: GET
+[09-Dec-2024 07:31:20 UTC] Error getting chart data: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'snmp_manager.metrics' doesn't exist
+[09-Dec-2024 07:31:20 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 125
+[09-Dec-2024 07:31:20 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 131
+[09-Dec-2024 07:31:20 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 137
+[09-Dec-2024 07:31:20 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 146
+[09-Dec-2024 07:31:20 UTC] Error (2): Undefined variable $content in /var/www/lyari.com/views/layout/header.php on line 152
+[09-Dec-2024 07:31:29 UTC] Request URI: /settings
+[09-Dec-2024 07:31:29 UTC] Request Method: GET
+[09-Dec-2024 07:31:37 UTC] Request URI: /settings
+[09-Dec-2024 07:31:37 UTC] Request Method: GET
+[09-Dec-2024 07:31:44 UTC] Request URI: /settings/save
+[09-Dec-2024 07:31:44 UTC] Request Method: POST
+[09-Dec-2024 07:31:44 UTC] Received settings data: {"snmp_version":"2c","community_string":"publica","snmp_timeout":"5","snmp_retries":"3"}
+[09-Dec-2024 07:31:49 UTC] Request URI: /settings
+[09-Dec-2024 07:31:49 UTC] Request Method: GET
